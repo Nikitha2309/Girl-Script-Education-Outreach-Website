@@ -1,0 +1,10 @@
+.title {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.section{
+	height: 100 px;
+	width: 100 px;
+	background-color: black;
+}
