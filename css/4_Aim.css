@@ -1,5 +1,67 @@
-.Aim {
-	font-weight: bold;
-	font-size: 30px;
-	color:greenyellow;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+*{
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.aim{
+	background-color: #FFBA7A;
+	position: relative;
+	height:600px;
+}
+.aim h1{
+	font-family: 'Rubik', sans-serif;
+	font-size: 48px;
+	margin-bottom: 5px;
+}
+.aim-flex-cont{
+	display: flex;
+	align-items: center;
+	padding: 30px;
+	justify-content: space-between;
+}
+.aim-main-img img{
+	margin-left: 20px;
+	width:550px;
+}
+.aim-main-img{
+	position: relative;
+	z-index: 20;
+	margin-top: 40px;
+	padding: 10px;
+}
+.aim-main-content{
+	text-align: justify;
+	z-index:5;
+	position: relative;
+	left:70px;
+	top:50px;
+	width: 496px;
+	
+}
+.aim-dot-1{
+	position: absolute;
+	left:30px;
+	top:70px;
+}
+.aim-dot-2{
+	position: absolute;
+	bottom:30px;
+	right:15px;
+	z-index: 1;
+	margin-right: 10px;
+	margin-bottom: 60px;
+}
+.aim p{
+	font-size: 16px;
+}
+.aim hr{
+	border: none;
+	border-top:5px solid #EB5310 ;
+	height:2px;
+	width:67px;
+	margin-bottom: 30px;
+	
 }
