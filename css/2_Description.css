@@ -1,5 +1,66 @@
 .Description {
-	font-weight: bold;
-	font-size: 30px;
-	color:orange;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+  background: #ffba7a;
+  display: flex;
+  height: 100vh;
 }
+.description-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+  width: 53vw;
+}
+.image-container {
+  height: 100%;
+}
+.description-heading,
+.description-sub-heading {
+  font-family: Rubik;
+}
+.description-heading {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 57px;
+  margin: 0;
+}
+.underline {
+  border: 2px solid #eb5310;
+  width: 190px;
+  height: 0px;
+}
+.description-sub-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 28px;
+}
+.desc-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 23px;
+}
+.desc-illust {
+  position: absolute;
+  width: 36%;
+  height: 72%;
+  left: 60%;
+  top: 50%;
+}
+.desc-dot-illust {
+  position: absolute;
+  width: 15%;
+  height: 30%;
+  left: 80%;
+  top: 47%;
+}
+/* @media screen and (max-width: 1000px) {
+  .Description {
+    flex-direction: column;
+    height: 50vh;
+  }
+} */
