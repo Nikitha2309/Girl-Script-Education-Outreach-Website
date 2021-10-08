@@ -4,7 +4,7 @@
   color: black;
   background: #ffba7a;
   display: flex;
-  height: 100vh;
+  height: 670px;
 }
 .description-container {
   display: flex;
@@ -50,20 +50,31 @@
 .desc-illust {
   position: absolute;
   width: 36%;
-  height: 72%;
   left: 60%;
-  top: 50%;
+  top: 350px;
 }
 .desc-dot-illust {
   position: absolute;
   width: 15%;
-  height: 30%;
-  left: 80%;
-  top: 47%;
+  left: 81%;
+  top: 330px;
 }
-/* @media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1024px) {
   .Description {
     flex-direction: column;
-    height: 50vh;
+    height: 40vh;
+  }
+  .description-container{
+    margin: 3rem;
+    width: auto;
+    padding: 0;
+  }
+  .desc-illust{
+    top: 30%;
+    left: 25%;
+  }
+  .desc-dot-illust{
+    top: 30%;
+    left: 50%;
   }
 } */
