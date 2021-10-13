@@ -2,6 +2,7 @@
   background: #1C1C1C;
   color: #fff;
   height: 22vw;
+  position: relative;
 }
 .sponsor_heading {
   font-weight: 500;
@@ -14,30 +15,19 @@
   position: absolute;
   width: 15%;
   left: -4%;
-  top: 378vw;
+  top: -15%;
   z-index: 1;
 }
 .sponsor_dot_pattern2 {
   position: absolute;
   width: 15%;
   left: 85%;
-  top: 393vw;
+  bottom: -15%;
   z-index: 0;
 }
 .sponsor_logo {
-  position: absolute;
   width: 38%;
   left: 31%;
-  top: 394vw;
-}
-@media screen and (max-width: 1024px) {
-	.sponsor_logo{
-		top: 409vw;
-	}
-	.sponsor_dot_pattern1{
-		top: 393vw;
-	}
-	.sponsor_dot_pattern2{
-		top: 407vw;
-	}
+  margin: 2.5rem;
+  position: absolute;
 }

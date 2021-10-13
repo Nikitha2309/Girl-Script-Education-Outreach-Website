@@ -4,27 +4,17 @@
   background: #ffba7a;
   color: #000;
   height: 56.5vw;
+  position: relative;
 }
 .testimonial_heading {
   font-size: 3.33vw;
   font-family: Rubik;
   font-weight: 500;
-  left: 10.2vw;
-  top: 410vw;
-  position: absolute;
+  margin-left: 10.2vw;
+  padding-top: 5%;
 }
 .testimonial_underline {
   border: 2px solid #eb5310;
   width: 13vw;
-  left: 10.2vw;
-  top: 414vw;
-  position: absolute;
-}
-@media screen and (max-width: 1024px) {
-	.testimonial_heading{
-		top: 423vw;
-	}
-	.testimonial_underline{
-		top: 427vw;
-	}
+  margin-left: 10.2vw;
 }
