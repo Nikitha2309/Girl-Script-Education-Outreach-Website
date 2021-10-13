@@ -34,16 +34,16 @@
 .description-sub-heading {
   font-style: normal;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.67vw;
   margin: 1rem 0rem;
-  line-height: 28px;
+  line-height: 1.9vw;
 }
 .desc-description {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.4vw;
+  line-height: 1.7vw;
   /* margin: 1rem 0rem; */
 
 }
