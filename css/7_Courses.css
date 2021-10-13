@@ -1,154 +1,155 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Rubik:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Rubik:wght@500&display=swap");
 
 .Courses {
-	position: relative;
-	width: 100%; 
-	height: 121.48vw;  /* For 5 courses	 */
-	/* Change according to number of cards. 
-	Base height required - 30.54 vw
-	Add 22.3 vw if one more card is to be added	 */
-	left: 0vw;
-	background: #FFBA7A;
+  position: relative;
+  width: 100%;
+  height: auto;
+  left: 0vw;
+  background: #ffba7a;
+  padding-bottom: 15.27vw;
 }
 
 .Courses_title {
-	position: absolute;
-	width: 36.80%; /* 530/1440	 */
-	height: 3.19vw; /* 46/1440	 */
-	left: 10.06%;  /* 145/1440	 */
-	top: 5.34vw;    /* 77/1440	 */
-	font-family: 'Rubik', sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 3.3vw; /* 48/1440	 */
-	line-height: 3.95vw; /* 57/1440	 */
-	color: #000000;
+  position: relative;
+  width: 36.8%; /* 530/1440	 */
+  height: 3.19vw; /* 46/1440	 */
+  left: 10.06%; /* 145/1440	 */
+  top: 5.34vw; /* 77/1440	 */
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3.3vw; /* 48/1440	 */
+  line-height: 3.95vw; /* 57/1440	 */
+  color: #000000;
 }
 
 .Courses_title_underline {
-	position: absolute;
-	width: 12.91%; /* 186/1440	 */
-	height: 0vw;
-	left: 10.06%; /* 145/1440 */
-	top: 9.65vw;  /* 139/1440 */
-	border: 0.01vw solid #EB5310; /* 2/1440 */
+  position: absolute;
+  width: 12.91%; /* 186/1440	 */
+  height: 0vw;
+  left: 10.06%; /* 145/1440 */
+  top: 9.79vw; /* 139/1440 */
+  border: 0.01vw solid #eb5310; /* 2/1440 */
 }
 
-.Courses_container{
-	z-index: 2;
-	position: absolute;
-	padding-top: 1.31vw;/* 19/1440	 */
-	padding-bottom:1.31vw ;/*19/1440 */
-	width: 66.80%; /* 962/1440	 */
-	height: auto; /* 827.1/1440	 */
-	left: 16.59%; /* 239/1440	 */
-	top: 15.27vw; /* 220/1440	 */
-	background: #F2F2F2;
-    border-radius: 1.01vw;
+.Courses_container {
+  z-index: 2;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 1.31vw; /* 19/1440	 */
+  padding-bottom: 1.31vw; /*19/1440 */
+  width: 66.8%; /* 962/1440	 */
+  height: auto; /* 827.1/1440	 */
+  /* left: 16.59%; /* 239/1440	 */
+  margin-top: 15.27vw; /* 220/1440	 */
+  background: #f2f2f2;
+  border-radius: 1.01vw;
 }
 
-.Courses_course{
-	position: relative;
-	width: 79.40%; /* 764/962	 */
-	height: 16.66vw;/* 240/1440		 */
-	left: 10.34%;/* 100/962 */
-	margin-top: 1vw;
-	margin-bottom: 1vw;
-	background: #FFFFFF;
-	box-shadow: 0.01vw 0.01vw 0.02vw rgba(0, 0, 0, 0.25);
-	border-radius: 0.69vw;
+.Courses_course {
+  position: relative;
+  width: 79.4%; /* 764/962	 */
+  height: 16.66vw; /* 240/1440		 */
+  left: 10.34%; /* 100/962 */
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  background: #ffffff;
+  box-shadow: 0.01vw 0.01vw 0.02vw rgba(0, 0, 0, 0.25);
+  border-radius: 0.69vw;
 }
 
-.Courses_course_image{
-	position: absolute;
-	left: -0.09%;
-	width: 47.70%;/* 365/764		 */
-	height: 16.67vw;/* 240/1440		 */
+.Courses_course_image {
+  position: absolute;
+  left: -0.09%;
+  width: 47.7%; /* 365/764		 */
+  height: 16.67vw; /* 240/1440		 */
 }
 
-.Courses_course_image > img{
-	height: 100%; 
-	width: 100%; 
-	object-fit: contain;
+.Courses_course_image > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
-.Courses_course_content{
-	position: absolute;
-	left: 47.70%;/* 365/764		 */
-	width: 51.9%;/* 397/764		 */
-	height: 16.66vw;/* 240/1440		 */
-	overflow-y: auto;
+.Courses_course_content {
+  position: absolute;
+  left: 47.7%; /* 365/764		 */
+  width: 51.9%; /* 397/764		 */
+  height: 16.66vw; /* 240/1440		 */
+  overflow-y: auto;
 }
 
-.Courses_course_title{
-	position: absolute;
-	width: 40.3%; /* 160/397	% */
-	height: 1.94vw;/* 	28/1440 vw*/
-	left: 6.04%;/* 	24/397 %*/
-	top: 1.66vw;/* 24/1440	vw */
+.Courses_course_title {
+  position: absolute;
+  width: 40.3%; /* 160/397	% */
+  height: 1.94vw; /* 	28/1440 vw*/
+  left: 6.04%; /* 	24/397 %*/
+  top: 1.66vw; /* 24/1440	vw */
 
-	font-family: 'Roboto', sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 1.66vw;/* 	24/1440 vw */
-	line-height: 1.94vw;/* 	28/1440 */
-	text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.66vw; /* 	24/1440 vw */
+  line-height: 1.94vw; /* 	28/1440 */
+  text-transform: uppercase;
 
-	color: #000000;
+  color: #000000;
 }
 
-.Courses_course_description{
-	position: absolute;
-	width: 87.90%;/* 349/397	 */
-	height: 4.02vw;/* 58/1440	 */
-	left: 6.04%;/* 24/397	 */
-	top: 4.44vw;/* 64/1440	 */
+.Courses_course_description {
+  position: absolute;
+  width: 87.9%; /* 349/397	 */
+  height: 4.02vw; /* 58/1440	 */
+  left: 6.04%; /* 24/397	 */
+  top: 4.44vw; /* 64/1440	 */
 
-	font-family: 'Roboto', sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1.11vw;/* 16/1440	 */
-	line-height: 1.31vw;/* 	19/1440 */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.11vw; /* 16/1440	 */
+  line-height: 1.31vw; /* 	19/1440 */
 
-	color: #000000;
-	
-}
-.Courses_course_date{
-   position: absolute;
-	width: auto;  /* 102/397	 */
-	height: 1.31vw;/* 	19/1440 */
-	left: 6.04%;/* 24/397	 */
-	bottom: 1.66vw;/* 24/1440	vw */
-
-	font-family: 'Roboto', sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 1.11vw;/* 16/1440	 */
-	line-height: 1.31vw;/* 	19/1440 */
-
-	text-transform: capitalize;
-
-	color: #000000;
+  color: #000000;
 }
 
-.Courses_dot_1{
-	position: absolute;
-	width: 20.83%; /* 	300/1440% */
-	height: 19.16vw;/* 	276/1440 vw */
-	right: 6.11%;/* 	88/1440% */
-	top: 7vw;/* 	101/1440 vw */
-	background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/7_Courses_Dot.png') no-repeat;
-	background-size: contain;
-	z-index: 1;
+.Courses_course_date {
+  position: absolute;
+  width: auto; /* 102/397	 */
+  height: 1.31vw; /* 	19/1440 */
+  left: 6.04%; /* 24/397	 */
+  bottom: 1.66vw; /* 24/1440	vw */
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.11vw; /* 16/1440	 */
+  line-height: 1.31vw; /* 	19/1440 */
+
+  text-transform: capitalize;
+
+  color: #000000;
 }
 
-.Courses_dot_2{
-	position: absolute;
-	width: 20.83%; /* 	300/1440% */
-	height: 19.16vw;/* 	276/1440 vw */
-	left: 6.11%;/* 	88/1440% */
-	bottom: 7vw;/* 	101/1440 vw */
-	background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/7_Courses_Dot.png') no-repeat;
-	background-size: contain;
-	z-index: 1;
+.Courses_dot_1 {
+  position: absolute;
+  width: 20.83%; /* 	300/1440% */
+  height: 19.16vw; /* 	276/1440 vw */
+  right: 6.11%; /* 	88/1440% */
+  top: 7vw; /* 	101/1440 vw */
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/7_Courses_Dot.png")
+    no-repeat;
+  background-size: contain;
+  z-index: 1;
+}
+
+.Courses_dot_2 {
+  position: absolute;
+  width: 20.83%; /* 	300/1440% */
+  height: 19.16vw; /* 	276/1440 vw */
+  left: 6.11%; /* 	88/1440% */
+  bottom: 7vw; /* 	101/1440 vw */
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/7_Courses_Dot.png")
+    no-repeat;
+  background-size: contain;
+  z-index: 1;
 }
