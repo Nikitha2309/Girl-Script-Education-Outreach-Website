@@ -1,5 +1,80 @@
 .Mentors {
-	font-weight: bold;
-	font-size: 30px;
-	color:green;
+  font-family: Roboto;
+  font-style: normal;
+  color: black;
+  height: 57vw;
+  background: #ffdab8;
+}
+.mentors_heading {
+  font-size: 3.33vw;
+  font-family: Rubik;
+  font-weight: 500;
+  padding-left: 10.2vw;
+  padding-top: 2.5rem;
+}
+.mentors-underline {
+  border: 2px solid #eb5310;
+  width: 13vw;
+  margin-left: 10.2vw;
+  margin-top: 0.5rem;
+}
+.mentors-container {
+  display: grid;
+  grid-gap: 2rem;
+  place-items: center;
+  padding: 5vw 10.2vw;
+  grid-template-columns: repeat(4, 1fr);
+}
+.mentor {
+  display: grid;
+  width: 18vw;
+  height: 16vw;
+  /* border: 1px solid black; */
+  text-align: center;
+  position: relative;
+}
+.mentor-img {
+  text-align: center;
+  width: 8vw;
+  position: absolute;
+  left: 30%;
+  top: 0;
+  z-index: 1;
+}
+.mentor-subcontainer {
+  background: #fff;
+  height: 12vw;
+  width: 100%;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 0px;
+  padding-top: 3.8vw;
+}
+.mentor-subcontainer h5 {
+  font-weight: 500;
+  font-size: 2vw;
+}
+.mentor-subcontainer p {
+  font-size: 1vw;
+  font-weight: normal;
+}
+.media-icons{
+  margin-top: 1rem;
+}
+.media-icons img {
+  width: 2.4vw;
+}
+@media screen and (max-width: 1024px) {
+  /* .mentors_heading{
+		top: 200vw;
+	}
+	.mentors-underline{
+		top: 204vw;
+	} */
+  .Mentors {
+    height: 100%;
+  }
+  .mentors-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

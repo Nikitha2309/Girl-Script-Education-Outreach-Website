@@ -4,7 +4,7 @@
   color: black;
   background: #ffba7a;
   display: flex;
-  height: 100vh;
+  height: 49.44vw;
 }
 .description-container {
   display: flex;
@@ -21,11 +21,10 @@
   font-family: Rubik;
 }
 .description-heading {
-  font-size: 3rem;
+  font-size: 3.33vw;
   font-weight: 500;
-  line-height: 57px;
   margin: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 .underline {
   border: 2px solid #eb5310;
@@ -45,25 +44,37 @@
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.5rem;
-  margin: 1rem 0rem;
+  /* margin: 1rem 0rem; */
+
 }
 .desc-illust {
   position: absolute;
   width: 36%;
-  height: 72%;
   left: 60%;
-  top: 50%;
+  top: 10vw;
 }
 .desc-dot-illust {
   position: absolute;
   width: 15%;
-  height: 30%;
-  left: 80%;
-  top: 47%;
+  left: 81%;
+  top: 11vw;
 }
-/* @media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1024px) {
   .Description {
     flex-direction: column;
-    height: 50vh;
+    height: 40vh;
+  }
+  .description-container{
+    margin: 3rem;
+    width: auto;
+    padding: 0;
+  }
+  .desc-illust{
+    top: 30%;
+    left: 25%;
+  }
+  .desc-dot-illust{
+    top: 30%;
+    left: 50%;
   }
 } */
