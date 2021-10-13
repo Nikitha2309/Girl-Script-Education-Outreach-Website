@@ -1,5 +1,11 @@
 .Header{
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 1vw;
 	color:blue;
+	background: #1C1C1C;
+	height: 5.56vw;
+}
+.Header ul li a {
+	display: flex;
+	justify-content: space-between;
 }
