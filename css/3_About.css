@@ -14,10 +14,9 @@
 	height: 38.05vw; /* 548/1440 */
 	left: 10.48%; /* 151/1440 */
 	top: 10.90vw;  /* 157/1440 */
-background:url('https://raw.githubusercontent.com/Nikitha2309/Private/main/The%20Little%20Things%20Working.png?token=APXZ46KZ32B64FSFRJ7WKLTBNAKV6') no-repeat;
+background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/3_About_The_Little_Things_Working.png') no-repeat;
 	background-size: contain;
 	z-index: 1;
-	/* background:url('./About_The Little Tings Working.png') no-repeat contain; */
 }
 
 .About_dot_image {
@@ -26,9 +25,8 @@ background:url('https://raw.githubusercontent.com/Nikitha2309/Private/main/The%2
 	height: 20.175vw; /* 290.52/1440 */
 	left: 23.00%; /* 331.23/1440 */
 	top: 12.586vw;  /* 181.24/1440 */
-background:url('https://raw.githubusercontent.com/Nikitha2309/Private/main/Dot.png?token=APXZ46PHAONSPOLQXN6ME23BNANT2') no-repeat;
+background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/3_About_Dot.png') no-repeat;
 	background-size: contain;
-	/* background:url('./About_The Little Tings Working.png') no-repeat contain; */
 }
 
 .About_title{
