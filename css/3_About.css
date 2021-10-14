@@ -10,11 +10,11 @@
 
 .About_image_1 {
 	position: absolute;
-	width: 35.34%; /* 509/1440 */
-	height: 38.05vw; /* 548/1440 */
-	left: 10.48%; /* 151/1440 */
-	top: 10.90vw;  /* 157/1440 */
-background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/3_About_The_Little_Things_Working.png') no-repeat;
+	width: 42.56%; /* 613/1440 */
+	height: 32.5vw; /* 468/1440 */
+	left: 9.72%; /* 140/1440 */
+	top: 14.93vw;  /* 215/1440 */
+background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/3_About_image.png') no-repeat;
 	background-size: contain;
 	z-index: 1;
 }
@@ -23,8 +23,8 @@ background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Educat
 	position: absolute;
 	width: 22.75%; /* 327.68/1440 */
 	height: 20.175vw; /* 290.52/1440 */
-	left: 23.00%; /* 331.23/1440 */
-	top: 12.586vw;  /* 181.24/1440 */
+	left: 32.01%; /* 469/1440 */
+	top: 8.81vw;  /* 127/1440 */
 background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/3_About_Dot.png') no-repeat;
 	background-size: contain;
 }
