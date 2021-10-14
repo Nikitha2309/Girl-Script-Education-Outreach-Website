@@ -44,6 +44,16 @@ background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Educat
 	color: #000000;
 }
 
+.About_title_underline{
+	position: absolute;
+	width: 5.76%;
+	height: 0px;
+	right: 9.65%;
+	top: 23.88vw;
+
+	border: 0.0138vw solid #EB5310;
+}
+
 .About_sub_title{
 	position: absolute;
 	width: 28.95%; /* 417/1440	 */
