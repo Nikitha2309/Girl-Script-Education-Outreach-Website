@@ -1,5 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik:wght@500&display=swap");
+
 .FAQ {
-	font-weight: bold;
-	font-size: 30px;
-	color:orangered;
+	position: relative;
+	width: 100%;
+	height: auto;
+	left: 0vw;
+	background: #FFDAB8;
+	padding-bottom: 9.09vw;
 }
+
+.FAQ_title{
+	position: relative;
+	width: 90%;/* 	649/1440 */
+	height: 3.05vw;/* 	44/1440 */
+	left: 9.65%;/* 	139/1440 */
+	top: 6.11vw; /* 	88/1440 */
+
+	font-family: "Rubik", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 3.33vw;/* 	48/1440 */
+	line-height: 3.95vw;/* 	57/1440 */
+
+	color: #000000;
+	z-index: 2;
+}
+
+.FAQ_title_underline{
+	position: absolute;
+	  width: 12.91%; /* 186/1440	 */
+	  height: 0vw;
+	  left: 9.65%; /* 139/1440 */
+	  top: 10.83vw; /* 156/1440 */
+	  border: 0.01vw solid #eb5310; /* 2/1440 */
+}
+
+.FAQ_dot {
+  position: absolute;
+  width: 25.69% ;/* 	370/1440% */
+  height: 23.61vw;/* 	340/1440% */
+  left: 3.26%; /* 	47/1440% */
+  top: 3.40vw; /* 	49/1440 vw */
+  background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/11_FAQ_Dot.png")
+    no-repeat;
+  background-size: contain;
+  /* z-index: 1; */
+}
+
+.FAQ_container {
+	position:relative;
+	display:grid;
+    grid-gap: 3.88vw 5.76vw;
+	margin-left:14.93%;
+	margin-right:14.93%;
+	margin-top:17.08vw;
+    place-items: center;
+    /* padding: 5vw 10.2vw; */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.FAQ_card{
+	position: relative;
+	width:auto;
+	background: #FFFFFF;
+	border: 0.07vw solid #E8E8E8;
+	box-sizing: border-box;
+	box-shadow: 0vw 0.208vw 0.55vw rgba(0, 0, 0, 0.15);
+	border-radius: 0.416vw;
+}
+
+.FAQ_quesn{
+	position: relative;
+	width:79%;
+	height:auto;
+	/* width: 25.48vw; */
+	/* 367/1440	 */
+	height: auto; 
+    margin-left:1.52vw;/*22/1440 */
+	margin-top: 1.04vw;/* 15/1440	 */
+	margin-bottom: 1.04vw;/* 15/1440	 */
+
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 1.38vw; /* 20/1440	 */
+	line-height: 1.59vw;/* 23/1440	 */
+
+	color: #000000;
+}
+
+.FAQ_arrow{
+	cursor: pointer;
+	position: absolute;
+	width: 1.31vw;/* 19/1440	 */
+	height: 0.5vw;/* 7/1440	 */
+	right: 1.52vw;/* 22/1440	 */
+	top: 2.08vw; 
+	border: none;
+	background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/11_FAQ_Arrow.png")
+    no-repeat;
+  background-size: cover;
+	/* transform: rotate(0deg); */
+
+}
+
+.FAQ_answer{
+	position: relative;
+	width: auto;/* 	410/1440 */
+	height: auto;
+	margin-right:1.52vw;
+	margin-left:1.52vw;/*22/1440 */
+	margin-top:0.069vw ;/* 	1/1440 */
+	margin-bottom: 1.8vw;/* 	26/1440 */
+	display: none;
+
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.11vw;/* 	16/1440 */
+	line-height: 1.32vw;/* 	19/1440 */
+
+	color: #000000;
+}
+  
+@media screen and (max-width: 1024px) {
+  .FAQ_container {
+    grid-template-columns: repeat(1,1fr);                                          
+  }
+}
+
