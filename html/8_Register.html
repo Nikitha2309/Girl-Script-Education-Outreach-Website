@@ -1,4 +1,105 @@
-<div class="Register">
-	Register
+<div class="register">
+	<img src="../assets/Ornament 18.png"class="ornament1_8">
+	<h1>Register Now!</h1>
+	<div class="register-cont">
+	<div class="container">
+		<div class="regform-header">
+			<div class="header-1" id="student"  onclick="studentform()">Student</div>
+			<div class="header-2" onclick="mentorform()" id="mentor">Mentor</div>
+		</div>
+		<form id="student-form1">
+			<label>Name<span> *</span></label>
+			<input type="text" name="name" required>
+			<label>Email<span> *</span></label>
+			<input type="email" name="email" required>
+			<label>Contact Number<span> *</span></label>
+			<input type="number" name="number" required>
+			<div class="occupation">
+			<label for="occupation">Occupation<span> *</span></label>
+			<select id="occupation" required>
+				<option disable selected value>Select an option</option>
+				<option>#</option>
+				<option>#</option>
+				<option>#</option>
+			</select>
+		</div>
+			<label>College/University/Organisation<span> *</span></label>
+			<input type="text" name="org" required>
+			<div class="btn-cont">
+			<button class="con-btn" id="cont-btn1" onclick="next()" type="button">Continue ></button>
+		    </div>
+		</form>
+		<form id="student-form2">
+			<label>Interests<span> *</span></label>
+			<input type="text" name="interests" required>
+			<label>Year of Study<span> *</span></label>
+			<input type="text" name="year" required>
+			<label>Contact Number2<span> *</span></label>
+			<input type="number" name="number" required>
+			<div class="occupation">
+			<label for="availability">Availability<span> *</span></label>
+			<select id="availability" required>
+				<option disable selected value>Select an option</option>
+				<option>#</option>
+				<option>#</option>
+				<option>#</option>
+			</select>
+		</div>
+			<label>College/University/Organisation2<span> *</span></label>
+			<input type="text" name="org" required>
+			<div class="btn-cont btn-flex">
+			<button class="con-btn" id="back-btn1" type="button"onclick="back()">< Back</button>
+			<button class="con-btn" id="cont-btn2">Submit ></button>
+		    </div>
+		</form>
+		<!-- Mentor forms -->
+		<form id="mentor-form1">
+			<label>Mentor Name<span> *</span></label>
+			<input type="text" name="name" required>
+			<label>Email<span> *</span></label>
+			<input type="email" name="email" required>
+			<label>Contact Number<span> *</span></label>
+			<input type="number" name="number" required>
+			<div class="occupation">
+			<label for="occupation">Occupation<span> *</span></label>
+			<select id="occupation" required>
+				<option disable selected value>Select an option</option>
+				<option>#</option>
+				<option>#</option>
+				<option>#</option>
+			</select>
+		</div>
+			<label>College/University/Organisation<span> *</span></label>
+			<input type="text" name="org" required>
+			<div class="btn-cont">
+			<button class="con-btn" id="cont-btn1" onclick="mentornext()" type="button">Continue ></button>
+		    </div>
+		</form>
+		<form id="mentor-form2">
+			<label> Mentor Interests<span> *</span></label>
+			<input type="text" name="interests" required>
+			<label>Year of Study<span> *</span></label>
+			<input type="text" name="year" required>
+			<label>Contact Number2<span> *</span></label>
+			<input type="number" name="number" required>
+			<div class="occupation">
+			<label for="availability">Availability<span> *</span></label>
+			<select id="availability" required>
+				<option disable selected value>Select an option</option>
+				<option>#</option>
+				<option>#</option>
+				<option>#</option>
+			</select>
+		</div>
+			<label>College/University/Organisation2<span> *</span></label>
+			<input type="text" name="org" required>
+			<div class="btn-cont btn-flex">
+			<button class="con-btn" id="back-btn1" type="button"onclick="mentorback()">< Back</button>
+			<button class="con-btn" id="cont-btn2">Submit ></button>
+		    </div>
+		</form>
+	</div>
+</div>
+<img src="../assets/Ornament 18.png" class="ornament2_8">
 </div>
 	
