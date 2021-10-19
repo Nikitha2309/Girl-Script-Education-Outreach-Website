@@ -36,7 +36,8 @@
   height: 50%;
   height: 28vw;
   width: 42vw;
-  margin: auto 30vw;
+  margin: auto 27vw;
+  /* padding: auto 10vw !important; */
 }
 .owl-carousel .item {
   height: 26.2vw;
@@ -65,7 +66,7 @@
   top: 1.3vw;
   height: 26.2vw;
   width: 39vw;
-  left: 1vw;
+  left: 0.7vw;
 }
 .item-data h5, .side-thumb h5{
   font-size: 1.67vw;
