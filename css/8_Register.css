@@ -1,9 +1,155 @@
-.Register {
+.register {
 	font-weight: bold;
-	font-size: 30px;
 	color:black;
 	height: 56vw;
-	z-index: 100;
 	background: #FFDAB8;
+	z-index: 100;
 	position: relative;
+	
+}
+.register h1{
+	font-size: 3.33vw;
+	padding-top: 40px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+.register-cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.register-cont .container{
+	width: 29.86%;
+	min-height: 39.72vw;
+	border: 3px solid #EB5310;
+	border-radius: 15px;
+	padding: 30px;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.register-cont input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.register-cont input{
+	width:100%;
+	margin-top: 1.38vw;
+	margin-bottom: 1.38vw;
+	height: 2.22vw;
+	padding:5px;
+}
+.register-cont label span{
+	color: red;
+}
+.register-cont select{
+	height: 32px;
+	margin-bottom: 20px;
+	margin-left:20px;
+	width:193px;
+}
+.register-cont label{
+	font-size: 1.11vw;
+}
+.occupation{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.register form{
+	position: absolute;
+	left:15px;
+	right:15px;
+	transition: 0.6s;
+}
+.occupation label{
+	margin-top: 5px;
+}
+.con-btn{
+	width: 46.33%;
+    height: 2.77vw;
+	background-color: #EB5310;
+	color:white;
+	border: none;
+	border-radius: 6px;
+	font-size: 1.38vw;
+	cursor: pointer;
+}
+
+.btn-cont{
+	text-align: center;
+}
+.regform-header{
+	display: flex;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 1.11vw;
+}
+.regform-header .header-1{
+	background-color: #EB5310;
+	color: white;
+	padding: 12px 0px;
+	width:50%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.regform-header .header-2{
+	background-color: #fff;
+	color: black;
+	padding: 12px 0px;
+	width:50%;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#student-form2{
+	left:450px;
+	opacity: 0;
+    
+}
+.btn-flex{
+	display: flex;
+	justify-content: space-between;
+}
+#mentor-form2{
+	left:450px;
+	opacity: 0;
+}
+#mentor-form1{
+	left:450px;
+	opacity: 0;
+}
+#mentor,#student{
+	cursor: pointer;
+}
+.ornament1_8,.ornament2_8{
+	position: absolute;
+}
+.ornament1_8{
+	left:50px;
+	top:30px;
+	width: 15.27%;
+    height: 15.55vw;
+}
+.ornament2_8{
+	right:50px;
+	bottom:30px;
+	width: 15.27%;
+    height: 15.55vw;
+}
+@media screen and (max-width:1423px) {
+	.register-cont .container{
+		height:45vw;
+	}
+	.register{
+		height:68vw;
+	}
+	
+}
+@media screen and (max-width:1265px){
+   .register-cont .container{
+	   height:46vw;
+   }
 }
