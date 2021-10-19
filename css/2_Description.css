@@ -10,8 +10,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 5rem;
-  width: 53vw;
+  padding-left: 9.65%;
+  width: 60%;
 }
 .image-container {
   height: 100%;
@@ -19,6 +19,7 @@
 .description-heading,
 .description-sub-heading {
   font-family: Rubik;
+  
 }
 .description-heading {
   font-size: 3.33vw;
@@ -50,7 +51,7 @@
 .desc-illust {
   position: absolute;
   width: 36%;
-  left: 60%;
+  right: 5.83vw;
   top: 10vw;
 }
 .desc-dot-illust {
