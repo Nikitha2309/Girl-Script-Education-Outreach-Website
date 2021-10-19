@@ -14,7 +14,115 @@
   padding-top: 5%;
 }
 .testimonial_underline {
-  border: 2px solid #eb5310;
+  border-top: 0.14vw solid #eb5310;
   width: 13vw;
-  margin-left: 10.2vw;
+  height: 0px;
+  margin-left: 10.3vw;
+}
+.testimonial_dot_pattern {
+  position: absolute;
+  right: 25vw;
+  width: 24vw;
+  top: 12vw;
+}
+.crousel-container{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.owl-carousel {
+  display: block;
+  position: absolute;
+  top: 15vw;
+  height: 50%;
+  height: 28vw;
+  width: 42vw;
+  margin: auto 30vw;
+}
+.owl-carousel .item {
+  height: 26.2vw;
+  width: 39vw;
+  margin: auto 1.5rem;
+  text-align: center;
+}
+.owl-item-container {
+  background: #fff;
+  height: 26.2vw;
+  border-radius: 15px;
+}
+.owl-carousel .owl-stage-outer {
+  height: 100%;
+}
+.owl-carousel .item img {
+  width: 10vw;
+  padding-top: 3vw;
+  padding-bottom: 1vw;
+  margin: auto;
+}
+.item-border {
+  border: 0.21vw solid #eb5310;
+  position: absolute;
+  border-radius: 15px;
+  top: 1.3vw;
+  height: 26.2vw;
+  width: 39vw;
+  left: 1vw;
+}
+.item-data h5, .side-thumb h5{
+  font-size: 1.67vw;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+}
+.item-data h6{
+  margin-bottom: 1rem;
+}
+.item-data p{
+  width: 32.5vw;
+  margin: auto;
+  text-align: left;
+}
+.item-data h6,
+.item-data p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+  line-height: 1.32vw;
+}
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  /* width: 100%; */
+}
+.thumb-prev,
+.thumb-next {
+	position: absolute;
+	z-index: 99;
+	top: 45%;
+	left: 10vw;
+	cursor: pointer;
+	transition: all 0.3s;
+  text-align: center;
+}
+.thumb-next {
+	left: auto;
+	right: 10vw;
+}
+.thumb-next img, .thumb-prev img{
+  width: 5.56vw;
+}
+.owl-theme .owl-dots .owl-dot span {
+  background: #fff;
+  transition: none;
+}
+.owl-theme .owl-dots .owl-dot span:hover {
+  background: #fff;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+  width: 1.5vw;
+  height: 0.69vw;
 }

@@ -13,9 +13,10 @@
   padding-top: 2.5rem;
 }
 .mentors-underline {
-  border: 2px solid #eb5310;
+  border-top: 0.14vw solid #eb5310;
   width: 13vw;
-  margin-left: 10.2vw;
+  height: 0px;
+  margin-left: 10.3vw;
   margin-top: 0.5rem;
 }
 .mentors-container {
