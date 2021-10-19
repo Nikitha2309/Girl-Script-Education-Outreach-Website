@@ -27,8 +27,9 @@
   margin-bottom: 0.3rem;
 }
 .underline {
-  border: 2px solid #eb5310;
+  border-top: 0.14vw solid #eb5310;
   width: 13vw;
+  height: 0px;
 }
 .description-sub-heading {
   font-style: normal;
