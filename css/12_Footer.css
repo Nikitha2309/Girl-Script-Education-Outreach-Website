@@ -19,19 +19,20 @@
 }
 .contact-1 ul li,.contact-2 ul li,.contact-3 ul li,.contact-4 ul li{
 	margin-top:6px;
-	font-size: 20px;
+	font-size: 1.38vw;
 }
 .contact-1,.contact-2,.contact-3,.contact-4,.contact-5{
 	margin-top: 50px;
 	
 }
 .footer h3{
-	font-size: 24px;
+	font-size: 1.66vw;
 	margin-bottom: 15px;
 }
 .contact-1 p{
 	margin-top: 15px;
 	line-height: 2;
+	font-size:1.11vw;
 }
 .contact-2,.contact-3,.contact-4,.contact-5{
 	margin-top: 70px;
@@ -51,8 +52,11 @@
 	margin-bottom: 10px;
 	cursor: pointer;
 }
+.contact-5 ul li img{
+  width:88.083%;
+}
 .copyright{
 	margin-left: 40px;
 	position: absolute;
-	bottom:25px;
+	bottom:1.73vw;
 }

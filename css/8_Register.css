@@ -8,7 +8,7 @@
 	
 }
 .register h1{
-	font-size: 48px;
+	font-size: 3.33vw;
 	padding-top: 40px;
 	text-align: center;
 	margin-bottom: 25px;
@@ -20,8 +20,8 @@
 	flex-direction: column;
 }
 .register-cont .container{
-	width: 430px;
-	height: 572px;
+	width: 29.86%;
+	min-height: 39.72vw;
 	border: 3px solid #EB5310;
 	border-radius: 15px;
 	padding: 30px;
@@ -29,6 +29,7 @@
 	overflow: hidden;
 	
 }
+
 .register-cont input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
   -webkit-appearance: none; 
@@ -36,9 +37,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .register-cont input{
 	width:100%;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	height: 32px;
+	margin-top: 1.38vw;
+	margin-bottom: 1.38vw;
+	height: 2.22vw;
 	padding:5px;
 }
 .register-cont label span{
@@ -49,6 +50,9 @@ input[type=number]::-webkit-outer-spin-button {
 	margin-bottom: 20px;
 	margin-left:20px;
 	width:193px;
+}
+.register-cont label{
+	font-size: 1.11vw;
 }
 .occupation{
 	display: flex;
@@ -65,13 +69,13 @@ input[type=number]::-webkit-outer-spin-button {
 	margin-top: 5px;
 }
 .con-btn{
-	width: 192px;
-    height: 40px;
+	width: 46.33%;
+    height: 2.77vw;
 	background-color: #EB5310;
 	color:white;
 	border: none;
 	border-radius: 6px;
-	font-size: 20px;
+	font-size: 1.38vw;
 	cursor: pointer;
 }
 
@@ -82,6 +86,7 @@ input[type=number]::-webkit-outer-spin-button {
 	display: flex;
 	text-align: center;
 	margin-bottom: 20px;
+	font-size: 1.11vw;
 }
 .regform-header .header-1{
 	background-color: #EB5310;
@@ -101,6 +106,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 #student-form2{
 	left:450px;
+	opacity: 0;
     
 }
 .btn-flex{
@@ -109,9 +115,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 #mentor-form2{
 	left:450px;
+	opacity: 0;
 }
 #mentor-form1{
-	left:450px
+	left:450px;
+	opacity: 0;
 }
 #mentor,#student{
 	cursor: pointer;
@@ -122,8 +130,26 @@ input[type=number]::-webkit-outer-spin-button {
 .ornament1_8{
 	left:50px;
 	top:30px;
+	width: 15.27%;
+    height: 15.55vw;
 }
 .ornament2_8{
 	right:50px;
 	bottom:30px;
+	width: 15.27%;
+    height: 15.55vw;
+}
+@media screen and (max-width:1423px) {
+	.register-cont .container{
+		height:45vw;
+	}
+	.register{
+		height:68vw;
+	}
+	
+}
+@media screen and (max-width:1265px){
+   .register-cont .container{
+	   height:46vw;
+   }
 }
