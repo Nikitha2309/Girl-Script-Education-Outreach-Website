@@ -56,3 +56,7 @@ margin-bottom:2.29vw;
 list-style:none;
 text-transform: capitalize;
 }
+
+.Header_nav-links a:hover{
+	color:#EB5310 !important;
+}
