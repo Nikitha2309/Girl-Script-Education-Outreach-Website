@@ -56,14 +56,18 @@ margin-bottom:2.29vw;
 list-style:none;
 text-transform: capitalize;
 }
-ul li{
-	height: 2.22vw;
-	display: flex;
-	align-items: center;
-}
-ul .active{
-	border-bottom: 10px dotted salmon;
-}
 .Header_nav-links a:hover{
 	color:#EB5310 !important;
+}
+
+.nav_link_dot{
+	position:relative;
+	width: 0.45vw;
+    height: 0.45vw;
+	left:50%;
+	top:45.25%;
+background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/1_Header_Dot.png') no-repeat;
+background-size: contain;
+background: #EB5310;
+	border-radius: 50%;
 }
