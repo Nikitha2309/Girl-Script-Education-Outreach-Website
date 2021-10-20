@@ -12,12 +12,12 @@ window.addEventListener("scroll", () => {
   sections.forEach((section) => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.clientHeight;
-    if (pageYOffset >= sectionTop) {
+    console.log(sectionHeight);
+    if (pageYOffset >= (sectionTop - sectionHeight/10)) {
       current = section.getAttribute("id");
     }
   });
   document.querySelectorAll('.Header nav ul li').forEach((li) => {
-    console.log(li);
     li.classList.remove("active");
     if (li.classList.contains(current)) {
       li.classList.add("active");
