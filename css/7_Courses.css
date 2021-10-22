@@ -80,11 +80,12 @@
 }
 
 .Courses_course_title {
-  position: absolute;
-  width: 40.3%; /* 160/397	% */
-  height: 1.94vw; /* 	28/1440 vw*/
-  left: 6.04%; /* 	24/397 %*/
-  top: 1.66vw; /* 24/1440	vw */
+  position: relative;
+  width: 80%; /* 160/397	% */
+  height: auto; /* 	28/1440 vw*/
+  margin-left: 6.04%; /* 	24/397 %*/
+  margin-top: 1.66vw; /* 24/1440	vw */
+ margin-bottom: 2.44vw; /* 64/1440	 */
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -97,11 +98,11 @@
 }
 
 .Courses_course_description {
-  position: absolute;
-  width: 87.9%; /* 349/397	 */
-  height: 4.02vw; /* 58/1440	 */
-  left: 6.04%; /* 24/397	 */
-  top: 4.44vw; /* 64/1440	 */
+  position: relative;
+  width: 90.9%; /* 349/397	 */
+  height: auto; /* 58/1440	 */
+  margin-left: 6.04%; /* 24/397	 */
+  margin-top: 2.44vw; /* 64/1440	 */
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -113,11 +114,12 @@
 }
 
 .Courses_course_date {
-  position: absolute;
+  position: relative;
   width: auto; /* 102/397	 */
   height: 1.31vw; /* 	19/1440 */
-  left: 6.04%; /* 24/397	 */
-  bottom: 1.66vw; /* 24/1440	vw */
+  margin-left: 6.04%; /* 24/397	 */
+  margin-top: 3vw; /* 24/1440	vw */
+   margin-bottom: 2vw; /* 24/1440	vw */
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
