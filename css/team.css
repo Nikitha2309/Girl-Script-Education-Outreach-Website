@@ -109,6 +109,9 @@ body {
 .member-img-overlay:hover > * {
   transform: translateY(0);
 }
+.member-img-overlay:hover ~ .member-name{
+  opacity: 0;
+}
 .member-img-overlay h3 {
   font-weight: bold;
   color: #fff;
