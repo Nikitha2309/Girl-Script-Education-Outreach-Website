@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-color: #ffba7a;
 }
-.Header{
+.Header {
   position: absolute;
   top: 0;
 }
@@ -17,16 +17,20 @@ body {
   margin-top: 10.7vw;
   margin-bottom: 8vw;
 }
-.Team h2 {
+.Team h2,
+.member-img-overlay h3,
+.team-member .member-name{
   font-family: Roboto;
   font-style: normal;
+}
+.Team h2 {
   font-weight: 500;
   text-align: center;
   font-size: 1.67vw;
   margin-bottom: 5vw;
 }
-.team-main{
-    position: relative;
+.team-main {
+  position: relative;
 }
 .team-dot {
   position: absolute;
@@ -51,23 +55,71 @@ body {
 }
 .team-member {
   position: relative;
+  text-align: center;
 }
 .member-img {
-  width: 17.3vw ;
+  width: 17.3vw;
   height: 20.45vw;
-  border-radius: 2.1vw ;
-  background-size: cover ;
+  background-image: linear-gradient(
+      180.08deg,
+      rgba(28, 28, 28, 0) 0.07%,
+      rgba(28, 28, 28, 0) 63.83%,
+      #1c1c1c 90.36%
+    ),
+    url("https://github.com/Nikitha2309/Girl-Script-Education-Outreach-Website/blob/master/assets/team-member.png?raw=true");
+  border-radius: 2.1vw;
+  background-size: cover;
 }
-.team-member h3 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  color: #fff;
-  font-size: 1.25vw;
-  line-height: 1.5vw;
+.team-member .member-name {
   position: absolute;
   top: 17.5vw;
   left: 4.9vw;
   width: auto;
   margin: auto;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.25vw;
+  line-height: 1.5vw;
+}
+.member-img-overlay {
+  position: absolute;
+  top: 0;
+  width: 17.3vw;
+  height: 20.45vw;
+  background: linear-gradient(
+    180.08deg,
+    rgba(28, 28, 28, 0) 0.07%,
+    #1c1c1c 90.36%
+  );
+  border-radius: 2.1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.member-img-overlay > * {
+  transform: translateY(1.4vw);
+  transition: transform 0.25s;
+}
+.member-img-overlay:hover {
+  opacity: 1;
+}
+.member-img-overlay:hover > * {
+  transform: translateY(0);
+}
+.member-img-overlay h3 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.25vw;
+  line-height: 1.5vw;
+  margin-bottom: 1.7vw;
+}
+.team-media {
+  /* position: absolute;
+  top: 15.5vw;
+  left: 7.43vw; */
+  width: 3.23vw;
+  margin-bottom: 1.7vw;
 }
