@@ -1,6 +1,6 @@
 .Description {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 2.1vw;
   color: black;
   background: #ffba7a;
   display: flex;
@@ -19,13 +19,12 @@
 .description-heading,
 .description-sub-heading {
   font-family: Rubik;
-  
 }
 .description-heading {
   font-size: 3.33vw;
   font-weight: 500;
   margin: 0;
-  margin-bottom: 0.3rem;
+  /* margin-bottom: 0.85vw; */
 }
 .underline {
   border-top: 0.14vw solid #eb5310;
@@ -36,7 +35,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 1.67vw;
-  margin: 1rem 0rem;
+  margin: 2.69vw 0vw 1.67vw;
   line-height: 1.9vw;
 }
 .desc-description {
@@ -44,9 +43,9 @@
   font-style: normal;
   font-weight: normal;
   font-size: 1.4vw;
+  width: 48.33vw;
   line-height: 1.7vw;
   /* margin: 1rem 0rem; */
-
 }
 .desc-illust {
   position: absolute;
@@ -63,19 +62,39 @@
 /* @media screen and (max-width: 1024px) {
   .Description {
     flex-direction: column;
-    height: 40vh;
+    height: 100%;
+    position: relative;
   }
   .description-container{
-    margin: 3rem;
-    width: auto;
+    margin-top: 38rem;
+    margin-bottom: 2rem;
+    width: 80%;
     padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .description-heading{
+    font-size: 5vw;
+  }
+  .description-sub-heading{
+    font-size: 2.51vw;
+  }
+  .desc-description{
+    font-size: 2.1vw;
+    line-height: 2.55vw;
+  }
+  .underline{
+    margin: auto;
   }
   .desc-illust{
-    top: 30%;
-    left: 25%;
+    top: 8vw;
+    left: 15%;
+    width: 55vw;
   }
   .desc-dot-illust{
-    top: 30%;
+    top: 8vw;
     left: 50%;
+    width: 23vw;
   }
 } */

@@ -19,7 +19,7 @@ body {
 }
 .Team h2,
 .member-img-overlay h3,
-.team-member .member-name{
+.team-member .member-name {
   font-family: Roboto;
   font-style: normal;
 }
@@ -69,10 +69,13 @@ body {
   left: 4.9vw;
   width: auto;
   margin: auto;
+  font-style: normal;
   font-weight: bold;
   color: #fff;
   font-size: 1.25vw;
   line-height: 1.5vw;
+  transform: translateY(0);
+  transition: transform 0.5s;
 }
 .member-img-overlay {
   position: absolute;
@@ -90,20 +93,21 @@ body {
   align-items: center;
   justify-content: flex-end;
   opacity: 0;
-  transition: opacity 0.25s;
+  transition: opacity 0.5s;
 }
 .member-img-overlay > * {
-  transform: translateY(1.4vw);
-  transition: transform 0.25s;
+  transform: translateY(5.2vw);
+  transition: transform 0.5s;
 }
+.member-name:hover,
 .member-img-overlay:hover {
   opacity: 1;
 }
 .member-img-overlay:hover > * {
   transform: translateY(0);
 }
-.member-img-overlay:hover ~ .member-name{
-  opacity: 0;
+.member-img-overlay:hover ~ .member-name {
+  transform: translateY(-5.2vw);
 }
 .member-img-overlay h3 {
   font-weight: bold;
