@@ -21,10 +21,17 @@
 }
 .mentors-container {
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 2.22vw;
   place-items: center;
   padding: 5vw 10.2vw;
   grid-template-columns: repeat(4, 1fr);
+}
+.mentors-container-2{
+  display: grid;
+  grid-gap: 2rem;
+  place-items: center;
+  padding: 0vw 16.6vw;
+  grid-template-columns: repeat(3, 1fr);
 }
 .mentor {
   display: grid;
@@ -65,17 +72,14 @@
 .media-icons img {
   width: 2.4vw;
 }
-@media screen and (max-width: 1024px) {
-  /* .mentors_heading{
-		top: 200vw;
-	}
-	.mentors-underline{
-		top: 204vw;
-	} */
+/* @media screen and (max-width: 1024px) {
   .Mentors {
     height: 100%;
   }
-  .mentors-container {
-    grid-template-columns: repeat(2, 1fr);
+  .mentors_heading{
+    font-size: 5vw;
   }
-}
+  .mentors-container {
+    grid-template-columns: repeat(2,1fr) ;
+  }
+} */

@@ -68,7 +68,8 @@
   width: 39vw;
   left: 0.7vw;
 }
-.item-data h5, .side-thumb h5{
+.item-data h5,
+.side-thumb h5{
   font-size: 1.67vw;
   font-family: Roboto;
   font-style: normal;
