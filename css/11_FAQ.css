@@ -51,8 +51,8 @@
 	position:relative;
 	display:grid;
     grid-gap: 3.88vw 5.76vw;
-	margin-left:14.93%;
-	margin-right:14.93%;
+	margin-left:14%;
+	margin-right:14%;
 	margin-top:17.08vw;
     place-items: center;
     /* padding: 5vw 10.2vw; */
@@ -61,7 +61,7 @@
 
 .FAQ_card{
 	position: relative;
-	width:auto;
+	width:95%;
 	background: #FFFFFF;
 	border: 0.07vw solid #E8E8E8;
 	box-sizing: border-box;
@@ -99,7 +99,9 @@
 	border: none;
 	background: url("https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/11_FAQ_Arrow.png")
     no-repeat;
-  background-size: cover;
+	padding-bottom:0.0001px;
+	padding-top:0.0001px;
+  background-size: contain;
 	/* transform: rotate(0deg); */
 
 }
@@ -123,9 +125,13 @@
 	color: #000000;
 }
   
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .FAQ_container {
     grid-template-columns: repeat(1,1fr);                                          
   }
+	
+	.FAQ_card {
+		width:60vw;
+	}
 }
 
