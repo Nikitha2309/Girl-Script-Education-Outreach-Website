@@ -12,9 +12,9 @@ window.addEventListener("scroll", () => {
   });
   document.querySelectorAll('.Header nav ul li').forEach((li) => {
 	var div_child = li.lastChild;
-	div_child.classList.remove("nav_link_dot");
+	div_child.style.opacity=0;
     if (li.classList.contains(current)) {
-      div_child.classList.add("nav_link_dot");
+      div_child.style.opacity=1;
     }
   });
 });
