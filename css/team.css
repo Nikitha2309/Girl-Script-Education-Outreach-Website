@@ -41,7 +41,7 @@ body {
   right: 11.74vw;
 }
 .team-main .team-bg-dot-bottom {
-  top: 34.51vw;
+  top: 10vw;
   left: 10vw;
 }
 .team-container {
@@ -56,6 +56,9 @@ body {
 .team-member {
   position: relative;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .member-img {
   width: 17.3vw;
@@ -66,10 +69,8 @@ body {
 .team-member .member-name {
   position: absolute;
   top: 17.5vw;
-  left: 4.9vw;
-  width: auto;
-  margin: auto;
-  font-style: normal;
+  width: 100%;
+  margin: 0 auto;
   font-weight: bold;
   color: #fff;
   font-size: 1.25vw;
