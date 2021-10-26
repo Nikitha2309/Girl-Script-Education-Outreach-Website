@@ -95,6 +95,7 @@ body {
   justify-content: flex-end;
   opacity: 0;
   transition: opacity 0.5s;
+  /* transition-delay: 0.3s; */
 }
 .member-img-overlay > * {
   transform: translateY(5.2vw);
