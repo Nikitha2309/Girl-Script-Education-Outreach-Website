@@ -47,7 +47,7 @@ body {
 .team-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 3.82vw 6vw;
+  grid-gap: 3.82vw 0vw;
   text-align: center;
   width: 64.1vw;
   margin: auto;
@@ -59,6 +59,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.team-member h2{
+  position: absolute;
+  margin-bottom: 5vw;
 }
 .member-img {
   width: 17.3vw;
