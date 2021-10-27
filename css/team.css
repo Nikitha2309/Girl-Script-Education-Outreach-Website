@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 body {
   margin: 0;
-  padding: 0;
   background-color: #ffba7a;
 }
 .Header {
@@ -128,4 +127,17 @@ body {
   left: 7.43vw; */
   width: 3.23vw;
   margin-bottom: 1.7vw;
+}
+
+.nav_link_dot_team{
+	position:relative;
+	opacity:1;
+	width: 0.45vw;
+    height: 0.45vw;
+	left:50%;
+	top:45.25%;
+background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/1_Header_Dot.png') no-repeat;
+background-size: contain;
+background: #EB5310;
+	border-radius: 50%;
 }
