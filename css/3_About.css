@@ -10,11 +10,11 @@
 
 .About_image_1 {
 	position: absolute;
-	width: 42.56%; /* 613/1440 */
-	height: 32.5vw; /* 468/1440 */
+	width: 43.81vw; /* 613/1440 */
+	height: 32.5vw; /*468/1440*/
 	left: 9.72%; /* 140/1440 */
 	top: 14.93vw;  /* 215/1440 */
-background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/a469eb439b2f11659b5604855231007e6e94297f/assets/3_About_illust.svg') no-repeat;
+background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/c35096fae293ddddf1899c544a8815071a896845/assets/3_About_illust.svg') no-repeat;
 	background-size: contain;
 	z-index: 1;
 }
