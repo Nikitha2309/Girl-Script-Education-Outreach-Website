@@ -49,7 +49,8 @@
 }
 .desc-illust {
   position: absolute;
-  width: 36%;
+  width: 33.4vw;
+  height: 25.76vw;
   right: 5.83vw;
   top: 10vw;
 }
@@ -57,7 +58,7 @@
   position: absolute;
   width: 15%;
   left: 81%;
-  top: 11vw;
+  top: 11.74vw;
 }
 /* @media screen and (max-width: 1024px) {
   .Description {
