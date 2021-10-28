@@ -123,6 +123,11 @@
 	line-height: 1.32vw;/* 	19/1440 */
 
 	color: #000000;
+	/* -webkit-transition: height 0.5s linear;
+       -moz-transition: height 0.5s linear;
+        -ms-transition: height 0.5s linear;
+         -o-transition: height 0.5s linear;
+            transition: height 0.5s linear; */
 }
   
 @media screen and (max-width: 768px) {
