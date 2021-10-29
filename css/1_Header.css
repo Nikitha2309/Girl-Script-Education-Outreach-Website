@@ -47,12 +47,12 @@ background-size: contain;
 
 .Header_nav-links{
  position: relative;
- margin-left:56.11vw;
+ margin-left:49.11vw;
  display: flex;
  gap: 3.40vw;
  flex-direction: row;
- margin-top:2.29vw;
-margin-bottom:2.29vw;
+ /* margin-top:2.29vw; */
+margin-bottom:1.59vw;
 list-style:none;
 text-transform: capitalize;
 }
@@ -66,9 +66,66 @@ text-transform: capitalize;
 	width: 0.45vw;
     height: 0.45vw;
 	left:50%;
-	top:45.25%;
+	top:25.25%;
 background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/1_Header_Dot.png') no-repeat;
 background-size: contain;
 background: #EB5310;
 	border-radius: 50%;
+}
+
+.nav_link_dot_team{
+	position:relative;
+	opacity:1;
+	width: 0.45vw;
+    height: 0.45vw;
+	left:50%;
+	top:25.25%;
+background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/1_Header_Dot.png') no-repeat;
+background-size: contain;
+background: #EB5310;
+	border-radius: 50%;
+}
+
+
+.ABOUT_US{
+	margin-top:2.29vw;
+}
+
+.COURSES{
+	margin-top:2.29vw;
+}
+
+.FAQ{
+	margin-top:2.29vw;
+}
+
+.TEAM{
+	margin-top:2.29vw;
+}
+
+.CONTACT{
+	margin-top:2.29vw;
+}
+
+.PARTNER_WITH_US{
+	margin-top:1.59vw;
+	padding-bottom:0.50vw;
+	padding-left:0.48vw;
+	padding-top:0.70vw;
+	padding-right:0.48vw;
+	border: 0.13vw solid #EB5310;
+    box-sizing: border-box;
+    border-radius: 0.48vw;
+}
+
+.PARTNER_WITH_US_PARTNER{
+	background:#EB5310;
+	margin-top:1.59vw;
+	padding-bottom:0.50vw;
+	padding-left:0.48vw;
+	padding-top:0.70vw;
+	padding-right:0.48vw;
+	border: 0.13vw solid #EB5310;
+    box-sizing: border-box;
+    border-radius: 0.48vw;
 }
