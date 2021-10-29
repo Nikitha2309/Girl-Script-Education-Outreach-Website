@@ -56,9 +56,6 @@ margin-bottom:1.59vw;
 list-style:none;
 text-transform: capitalize;
 }
-.Header_nav-links a:hover{
-	color:#EB5310 !important;
-}
 
 .nav_link_dot{
 	position:relative;
@@ -91,20 +88,40 @@ background: #EB5310;
 	margin-top:2.29vw;
 }
 
+.ABOUT_US a:hover{
+	color:#EB5310 !important;
+}
+
 .COURSES{
 	margin-top:2.29vw;
+}
+
+.COURSES a:hover{
+	color:#EB5310 !important;
 }
 
 .FAQ{
 	margin-top:2.29vw;
 }
 
+.FAQ a:hover{
+	color:#EB5310 !important;
+}
+
 .TEAM{
 	margin-top:2.29vw;
 }
 
+.TEAM a:hover{
+	color:#EB5310 !important;
+}
+
 .CONTACT{
 	margin-top:2.29vw;
+}
+
+.CONTACT a:hover{
+	color:#EB5310 !important;
 }
 
 .PARTNER_WITH_US{
@@ -116,6 +133,11 @@ background: #EB5310;
 	border: 0.13vw solid #EB5310;
     box-sizing: border-box;
     border-radius: 0.48vw;
+}
+
+.PARTNER_WITH_US:hover{
+	background:#EB5310;
+	color: #FBFAE0;
 }
 
 .PARTNER_WITH_US_PARTNER{
