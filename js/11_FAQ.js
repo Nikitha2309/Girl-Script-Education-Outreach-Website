@@ -4,17 +4,8 @@ var i;
 
 for (i = 0; i < arrows.length; i++) {
   arrows[i].addEventListener("click", function() {
-	var answer = this.nextElementSibling;
-	if (answer.style.display === "block") {
-	  answer.style.display = "none";
-	} else {
-	  answer.style.display = "block";
-	}
-
-	if(this.style.transform=="rotate(-180deg)") {
-		this.style.transform="rotate(0deg)";
-	} else {
-		this.style.transform="rotate(-180deg)";
-	}
+	  $(this.nextElementSibling).slideToggle("fast","linear");
+	  if(this.style.transform=="rotate(-180deg)")  this.style.transform="rotate(0deg)";
+	  else this.style.transform="rotate(-180deg)";
   });
 }
