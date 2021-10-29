@@ -34,7 +34,7 @@
   position: absolute;
   top: 15vw;
   height: 50%;
-  height: 28vw;
+  height: 30vw;
   width: 42vw;
   margin: auto 27vw;
   /* padding: auto 10vw !important; */
@@ -47,7 +47,7 @@
 }
 .owl-item-container {
   background: #fff;
-  height: 26.2vw;
+  height: 100%;
   border-radius: 15px;
 }
 .owl-carousel .owl-stage-outer {

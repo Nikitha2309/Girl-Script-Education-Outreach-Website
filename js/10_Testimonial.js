@@ -13,20 +13,35 @@ jQuery(document).ready(function ($) {
   });
   owlCrousel.on("changed.owl.carousel", function (property) {
     var current = property.item.index;
+    console.log(current);
     var prevThumb = $(property.target)
-      .find(".item")
+      .find(".owl-item")
       .eq(current)
       .prev()
       .find("img")
       .attr("src");
     var nextThumb = $(property.target)
-      .find(".item")
+      .find(".owl-item")
       .eq(current)
       .next()
       .find("img")
       .attr("src");
+    var prevName = $(property.target)
+      .find(".owl-item")
+      .eq(current)
+      .prev()
+      .find("h5")
+      .attr("student-name");
+    var nextName = $(property.target)
+      .find(".owl-item")
+      .eq(current)
+      .next()
+      .find("h5")
+      .attr("student-name");
     $(".thumb-prev").find("img").attr("src", prevThumb);
     $(".thumb-next").find("img").attr("src", nextThumb);
+    $(".thumb-prev").find("h5").text(prevName);
+		$(".thumb-next").find("h5").text(nextName);
   });
   $(".thumb-next").on("click", function () {
     owlCrousel.trigger("next.owl.carousel", [300]);
