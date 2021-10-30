@@ -26,28 +26,26 @@
   top: 12vw;
 }
 .crousel-container{
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
 }
 .owl-carousel {
   display: block;
-  position: absolute;
-  top: 15vw;
-  height: 50%;
-  height: 30vw;
+  min-height: 30vw;
   width: 42vw;
   margin: auto 27vw;
-  /* padding: auto 10vw !important; */
 }
 .owl-carousel .item {
-  height: 26.2vw;
+  min-height: 26.2vw;
   width: 39vw;
   margin: auto 1.5rem;
   text-align: center;
 }
 .owl-item-container {
   background: #fff;
-  height: 100%;
+  min-height: 26.2vw;
   border-radius: 15px;
 }
 .owl-carousel .owl-stage-outer {
@@ -64,7 +62,7 @@
   position: absolute;
   border-radius: 15px;
   top: 1.3vw;
-  height: 26.2vw;
+  min-height: 26.2vw;
   width: 39vw;
   left: 0.7vw;
 }
@@ -75,9 +73,9 @@
   font-style: normal;
   font-weight: 500;
 }
-.item-data h6{
+/* .item-data h6{
   margin-bottom: 1rem;
-}
+} */
 .item-data p{
   width: 32.5vw;
   margin: auto;
@@ -90,6 +88,7 @@
   font-weight: normal;
   font-size: 1vw;
   line-height: 1.32vw;
+  padding-bottom: 1rem;
 }
 .owl-theme .owl-nav {
   margin-top: 10px;
