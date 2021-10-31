@@ -10,98 +10,108 @@
 		</div>
 		<form id="student-form1">
 			<label>Name<span> *</span></label>
-			<input type="text" name="name" required>
+			<input type="text" class="valid-input1" name="name" required>
 			<label>Email<span> *</span></label>
-			<input type="email" name="email" required>
+			<input type="email" class="valid-input1" name="email" required>
 			<label>Contact Number<span> *</span></label>
-			<input type="number" name="number" required>
+			<input type="number" class="valid-input1"name="number" required>
 			<div class="occupation">
 			<label for="occupation">Occupation<span> *</span></label>
 			<select id="occupation" required>
 				<option disable selected value>Select an option</option>
-				<option>#</option>
-				<option>#</option>
-				<option>#</option>
+				<option>Student</option>
+				<option>Professional</option>
+				<option>Entrepreneur</option>
 			</select>
 		</div>
 			<label>College/University/Organisation<span> *</span></label>
-			<input type="text" name="org" required>
+			<input type="text" class="valid-input1"  name="org" required>
 			<div class="btn-cont">
-			<button class="con-btn" id="cont-btn1" onclick="next()" type="button">Continue ></button>
+			<button class="con-btn" id="cont-btn1" onclick="next()" type="button">Continue <img src="./assets/forward_arrow.png" style="vertical-align: middle;width:0.625vw;height:1.18vw;"></button>
 		    </div>
 		</form>
 		<form id="student-form2">
-			<label>Interests<span> *</span></label>
-			<input type="text" name="interests" required>
-			<label>Year of Study<span> *</span></label>
-			<input type="text" name="year" required>
-			<label>Contact Number2<span> *</span></label>
-			<input type="number" name="number" required>
-			<div class="occupation">
-			<label for="availability">Availability<span> *</span></label>
-			<select id="availability" required>
-				<option disable selected value>Select an option</option>
-				<option>#</option>
-				<option>#</option>
-				<option>#</option>
-			</select>
-		</div>
-			<label>College/University/Organisation2<span> *</span></label>
-			<input type="text" name="org" required>
-			<div class="btn-cont btn-flex">
-			<button class="con-btn" id="back-btn1" type="button"onclick="back()">< Back</button>
-			<button class="con-btn" id="cont-btn2">Submit ></button>
+			<div class="back-flex"><img onclick="back()" src="./assets/back_arrow.svg" > <a onclick="back()" style="color:#908E8E;cursor: pointer;margin-left:3px;">Back</a></div><br>
+			<label>Why do you want to get this Scholarship ? <span> *</span></label>
+			<textarea  name="scholarship"  required></textarea><br>
+			<label>How will this program help you in future ?<span> *</span></label>
+			<textarea name="how-program-will-help"  required></textarea><br>
+			<div class="agree"><label class="custom-checkbox"><input type="checkbox"  required><span class="checkmark"></span></label> <br><p> Yes, I agree</p></div>
+			<small>I agree that I will follow the following guidelines:- 1) I will not create a nuisance in a live class or the community channels. 2) I will not use abusive language or harass anyone in any form. 3) I will attend all the classes to get a digital certificate. 4) GirlScript can take legal action against me if I break any of the rules. *
+			</small>
+			<div class="btn-cont">
+			<button class="con-btn" id="cont-btn2">Submit</button>
 		    </div>
 		</form>
 		<!-- Mentor forms -->
 		<form id="mentor-form1">
-			<label>Mentor Name<span> *</span></label>
-			<input type="text" name="name" required>
+			<label>Name<span> *</span></label>
+			<input type="text" class="valid-input2" name="name" required>
 			<label>Email<span> *</span></label>
-			<input type="email" name="email" required>
+			<input type="email"  class="valid-input2" name="email" required>
 			<label>Contact Number<span> *</span></label>
-			<input type="number" name="number" required>
+			<input type="number"  class="valid-input2" name="number" required>
 			<div class="occupation">
-			<label for="occupation">Occupation<span> *</span></label>
-			<select id="occupation" required>
-				<option disable selected value>Select an option</option>
-				<option>#</option>
-				<option>#</option>
-				<option>#</option>
-			</select>
-		</div>
-			<label>College/University/Organisation<span> *</span></label>
-			<input type="text" name="org" required>
+			<label class="actual-label">Upload your resume<span> *</span></label>
+		    <label class="resume" for="file-upload">Upload <img src="./assets/up_arrow.svg"style="width:0.900vw;"></label>
+			<input type="file" class="valid-input2" id="file-upload" hidden required>
+		    </div>
+			<div class="file-content">
+			<small id="file-name"></small></div><br>
+			<label>Github Link<span> *</span></label>
+			<input type="url" class="valid-input2" name="github" required>
 			<div class="btn-cont">
-			<button class="con-btn" id="cont-btn1" onclick="mentornext()" type="button">Continue ></button>
+			<button class="con-btn" id="cont-btn1" onclick="mentornext()" type="button">Continue  <img src="./assets/forward_arrow.png" style="vertical-align: middle;width:0.625vw;height:1.18vw;"></button>
 		    </div>
 		</form>
 		<form id="mentor-form2">
-			<label> Mentor Interests<span> *</span></label>
-			<input type="text" name="interests" required>
-			<label>Year of Study<span> *</span></label>
-			<input type="text" name="year" required>
-			<label>Contact Number2<span> *</span></label>
-			<input type="number" name="number" required>
-			<div class="occupation">
-			<label for="availability">Availability<span> *</span></label>
+			<div class="back-flex"><img onclick="mentorback()" src="./assets/back_arrow.svg" > <a onclick="mentorback()" style="color:#908E8E;cursor: pointer;margin-left:3px;">Back</a></div><br>
+			<label>LinkedIn Link<span> *</span></label>
+			<input type="url" class="valid-input3" name="LinkedIn" required>
+			<label>Domain of Mentorship<span> *</span></label><br>
+			<div class="radio-buttons">
+			<input type="radio" name="domain" value=0 id="radio-button1"required><span> Tech</span>
+			<input type="radio" name="domain" value=1 id="radio-button2" required><span>Non Tech</span>
+		    </div>
+			<label for="availability">Select Course<span> *</span></label>
 			<select id="availability" required>
 				<option disable selected value>Select an option</option>
 				<option>#</option>
 				<option>#</option>
 				<option>#</option>
 			</select>
-		</div>
-			<label>College/University/Organisation2<span> *</span></label>
-			<input type="text" name="org" required>
-			<div class="btn-cont btn-flex">
-			<button class="con-btn" id="back-btn1" type="button"onclick="mentorback()">< Back</button>
-			<button class="con-btn" id="cont-btn2">Submit ></button>
+			<label>Why should we select you as a mentor<span> *</span></label>
+			<textarea class="valid-input3" name="why-mentor" required></textarea>
+			<div class="btn-cont">
+			<button class="con-btn" id="cont-btn2" onclick="mentorsecondnext()" type="button">Continue <img src="./assets/forward_arrow.png" style="vertical-align: middle;width:0.625vw;height:1.18vw;"></button>
+		    </div>
+		</form>
+		<form id="mentor-form3">
+			<div class="back-flex"><img onclick="mentorsecondback()" src="./assets/back_arrow.svg" > <a onclick="mentorsecondback()" style="color:#908E8E;cursor: pointer;margin-left:3px;">Back</a></div><br>
+			<label>Please share some work experience related to your choosen field<span> *</span></label>
+			<textarea  name="work-experience" required></textarea>
+			<label>Describe what you would do if students became inactive during the event<span> *</span></label>
+			<textarea  name="behavioural-question" required></textarea>
+			<label>How many hours are you willing to <t></t>dedicate per week?<span> *</span></label>
+			<input type="text" name="hours" required>
+			<div class="btn-cont">
+			<button class="con-btn" id="cont-btn2">Submit</button>
 		    </div>
 		</form>
 	</div>
 	
+	
 </div>
 <img src="./assets/8_Ornament.png" class="ornament2_8">
 </div>
-	
+<script>
+const btn = document.getElementById('file-upload');
+
+const fileChosen = document.getElementById('file-name');
+
+btn.addEventListener('change', function(){
+  fileChosen.textContent = this.files[0].name;
+});
+
+
+</script>

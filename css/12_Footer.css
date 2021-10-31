@@ -12,8 +12,8 @@
 .contact-parent {
 	display: flex;
 	justify-content: space-between;
-	padding-right: 50px;
-	padding-left:40px;
+	padding-right: 9.97%;
+	padding-left:9.38%;
 }
 .contact-1{
 	width:25%;
@@ -24,6 +24,7 @@
 .contact-1 ul li,.contact-2 ul li,.contact-3 ul li,.contact-4 ul li{
 	margin-top:6px;
 	font-size: 1.38vw;
+	font-weight: 400;
 }
 .contact-1,.contact-2,.contact-3,.contact-4,.contact-5{
 	margin-top: 50px;
@@ -37,6 +38,7 @@
 	margin-top: 15px;
 	line-height: 2;
 	font-size:1.11vw;
+	font-weight: 400;
 }
 .contact-2,.contact-3,.contact-4,.contact-5{
 	margin-top: 70px;
@@ -63,4 +65,6 @@
 	margin-left: 40px;
 	position: absolute;
 	bottom:1.73vw;
+	left: 6.125%;
+	font-weight: 400;
 }
