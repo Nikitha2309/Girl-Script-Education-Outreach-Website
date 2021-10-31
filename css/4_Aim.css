@@ -8,7 +8,7 @@
 }
 .aim{
 	background-color: #FFBA7A;
-	height:41.66vw; /*600px*/
+	height:57.98vw; /*600px*/
 	display: flex;
 	padding: 30px;
 	justify-content: space-between;
@@ -26,7 +26,7 @@
 }
 
 .aim-main-content {
-	 width: 34.4%;
+	 width: 45.4%;
 	 position: relative;
 	 z-index:10;
 	/* height:10.48vw;  */
@@ -36,23 +36,24 @@
     position: absolute ;
 	z-index: -1;
 	top:20px;
-	width:60.75%;
+	width:58.75%;
 }
 .aim-content{
 	position: absolute;
-	left:8.77%;
-	top:7.63vw;
+	left:16.77%;
+	top:15.63vw;
 }
 
 
 .aim p{
 	font-size: 1.1vw;
+	font-weight: 400;
 }
 .aim-img{
 	width:40.37vw;
 	position: absolute;
-	right:0;
-	top:3.47vw; /*50px*/
+	right:4.36vw;
+	top:13.47vw; /*50px*/
 	z-index: 2;
 }
 .aim-main-img{
@@ -61,7 +62,7 @@
 .aim-dot-2{
 	position: absolute;
 	right:0;
-	bottom:2.77vw; /*40px*/
+	bottom:6.77vw; /*40px*/
 	width:21vw;
 	
 }
