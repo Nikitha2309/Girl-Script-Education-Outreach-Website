@@ -159,12 +159,11 @@
 
 .Courses_Stats_Container{
 	position: relative;
-	width: 80.66vw;
+	width: 60.66vw;
 	height: 15.2vw; 
 	margin: 0 auto;
 	margin-top:4.44vw;
 	z-index:2;
-
 	background: #FFFFFF;
 	border-radius: 1.04vw;
 }
@@ -193,7 +192,7 @@
 	position: absolute;
 	width:4.58vw;
 	height:4.16vw;
-	left:65vw;
+	left:40vw;
 	top:2.5vw;
 	background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/7_Courses_Stats_3.png') no-repeat;
 	background-size: contain;
@@ -235,7 +234,7 @@ color: #000000;
 	position: absolute;
 /* width: 200px; */
 /* height: 45px; */
-left: 61.66vw;
+left: 38vw;
 top: 7.36vw;
 
 font-family: "Rubik";
@@ -286,7 +285,7 @@ color: #000000;
 	position: absolute;
 /* width: 230px;
 height: 22px; */
-left: 63.75vw;
+left: 39.5vw;
 top: 11.18vw;
 
 font-family: "Roboto";
