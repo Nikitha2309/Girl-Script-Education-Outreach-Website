@@ -127,3 +127,28 @@
   width: 1.5vw;
   height: 0.69vw;
 }
+
+@media screen and (max-width: 1024px) {
+  .Testimonials{
+    height: 100%;
+  }
+  .testimonial_heading{
+    font-size: 9vw;
+  }
+  .testimonial_underline{
+    width: 30%;
+    border-top: .4vw solid #eb5310;
+  }
+  .side-thumb{
+    display: none;
+  }
+  .crousel-container{
+    height: 60vh;
+  }
+  .owl-carousel{
+    margin: 0;
+  }
+  .owl-carousel .item{
+    width: 100%;
+  }
+}
