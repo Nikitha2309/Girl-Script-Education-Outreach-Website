@@ -1,5 +1,5 @@
 .Sponsors {
-  background: #1C1C1C;
+  background: #1c1c1c;
   color: #fff;
   height: 22vw;
   position: relative;
@@ -27,7 +27,33 @@
 }
 .sponsor_logo {
   width: 38%;
-  left: 31%;
-  margin: 2.5rem;
-  position: absolute;
+  /* left: 31%; */
+  margin: 2rem 32%;
+  /* position: absolute; */
+}
+@media screen and (max-width: 1024px) {
+  .Sponsors {
+    height: 100%;
+  }
+  .sponsor_dot_pattern1,
+  .sponsor_dot_pattern2 {
+    width: 25%;
+  }
+  .sponsor_dot_pattern1 {
+    left: -8%;
+  }
+  .sponsor_dot_pattern2 {
+    left: 75%;
+    bottom: -22%;
+  }
+  .sponsor_heading {
+    font-size: 8vw;
+    z-index: 100;
+  }
+  .sponsor_logo {
+    width: 60%;
+    margin: auto 20%;
+    margin-bottom: 6rem;
+    padding-top: 4rem;
+  }
 }

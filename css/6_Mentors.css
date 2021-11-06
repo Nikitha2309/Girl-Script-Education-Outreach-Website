@@ -75,14 +75,46 @@
 .media-icons img {
   width: 2.4vw;
 }
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .Mentors {
     height: 100%;
   }
   .mentors_heading{
-    font-size: 5vw;
+    font-size: 9vw;
+  }
+  .mentors-underline{
+    /* margin-top: 1rem; */
+    width: 30%;
+    border-top: .4vw solid #eb5310;
   }
   .mentors-container {
-    grid-template-columns: repeat(2,1fr) ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5rem 0rem;
   }
-} */
+  .mentor{
+    width: 80%;
+    height: 40vh;
+  }
+  .mentor-subcontainer{
+    height: 80%;
+    border-radius: 2rem;
+    padding-top: 17rem;
+  }
+  .mentor-img{
+    width: 40vw;
+    left: 20%;
+    height: 40vw;
+    border-radius: 2rem;
+  }
+  .mentor-subcontainer h5{
+    font-size: 8vw;
+  }
+  .mentor-subcontainer p{
+    font-size: 4vw;
+  }
+  .mentor-subcontainer img{
+    width: 7vw;
+    margin-top: 1rem;
+  }
+}

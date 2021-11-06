@@ -40,7 +40,7 @@ body {
   right: 11.74vw;
 }
 .team-main .team-bg-dot-bottom {
-  top: 10vw;
+  bottom: -5vw;
   left: 10vw;
 }
 .team-container {
@@ -98,7 +98,6 @@ body {
   justify-content: flex-end;
   opacity: 0;
   transition: opacity 0.5s;
-  /* transition-delay: 0.3s; */
 }
 .member-img-overlay > * {
   transform: translateY(5.2vw);
@@ -122,9 +121,42 @@ body {
   margin-bottom: 1.7vw;
 }
 .team-media {
-  /* position: absolute;
-  top: 15.5vw;
-  left: 7.43vw; */
   width: 3.23vw;
   margin-bottom: 1.7vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .Team h1{
+    font-size: 10vw;
+  }
+  .Team h2{
+    font-size: 5vw;
+  }
+  .team-main .team-container{
+    grid-template-columns: 1fr !important;
+  }
+  .team-bg-dot-top,
+  .team-bg-dot-bottom{
+    width: 40%;
+  }
+  .team-main .team-bg-dot-bottom{
+    bottom: -8vw;
+  }
+  .member-img, 
+  .member-img-overlay
+  {
+    width: 57.3vw;
+    height: 60.45vw;
+  }
+  .team-member .member-name{
+    font-size: 4vw;
+    top: 50vw;
+  }
+  .team-media{
+    width: 6vw;
+    margin-bottom: 2.5rem;
+  }
+  .member-img-overlay:hover ~ .member-name{
+    transform: translateY(-7.2vw);
+  }
 }
