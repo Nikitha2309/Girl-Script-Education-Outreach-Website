@@ -5,11 +5,12 @@ jQuery(document).ready(function ($) {
     nav: false,
     dots: true,
     margin: 50,
-    // autoplay: true,
+    autoplay: true,
     loop: true,
     // stagePadding: 50,
     mouseDrag: true,
     touchDrag: true,
+   
   });
   owlCrousel.on("changed.owl.carousel", function (property) {
     var current = property.item.index;
