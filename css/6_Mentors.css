@@ -80,7 +80,7 @@
     height: 100%;
   }
   .mentors_heading{
-    font-size: 9vw;
+    font-size: 8vw;
   }
   .mentors-underline{
     /* margin-top: 1rem; */
@@ -94,13 +94,14 @@
   }
   .mentor{
     width: 80%;
-    height: 40vh;
+    height: 70vw;
   }
   .mentor-subcontainer{
     height: 80%;
     border-radius: 2rem;
     padding-top: 17rem;
   }
+  
   .mentor-img{
     width: 40vw;
     left: 20%;
@@ -108,7 +109,7 @@
     border-radius: 2rem;
   }
   .mentor-subcontainer h5{
-    font-size: 8vw;
+    font-size: 6.5vw;
   }
   .mentor-subcontainer p{
     font-size: 4vw;
