@@ -8,7 +8,9 @@
 			<div class="header-1" id="student"  onclick="studentform()">Student</div>
 			<div class="header-2" onclick="mentorform()" id="mentor">Mentor</div>
 		</div>
+		<p id="warning"></p>
 		<form id="student-form1">
+			
 			<label>Name<span> *</span></label>
 			<input type="text" class="valid-input1" name="name" required>
 			<label>Email<span> *</span></label>
@@ -74,7 +76,7 @@
 			<input type="radio" name="domain" value=1 id="radio-button2" required><span>Non Tech</span>
 		    </div>
 			<label for="availability">Select Course<span> *</span></label>
-			<select id="availability" required>
+			<select id="availability" class="valid-input3" required>
 				<option disable selected value>Select an option</option>
 				<option>#</option>
 				<option>#</option>
