@@ -7,6 +7,7 @@
   height: 66.88vw;
   background: #ffba7a;
   margin-top: 5.55vw;
+  position: relative;
 }
 .partner-dot-top,
 .partner-dot-bottom {
@@ -14,12 +15,12 @@
 }
 .partner-dot-top {
   position: absolute;
-  top: 10.69vw;
+  top: 4.69vw;
   left: 3.125vw;
 }
 .partner-dot-bottom {
   position: absolute;
-  bottom: -10vw;
+  bottom: 5vw;
   right: 4.097vw;
 }
 .partnership-top-container {
@@ -47,6 +48,7 @@
   flex-direction: column;
   align-items: center;
   gap: 0vw;
+  padding-bottom: 3.54vw;  
   /* justify-content: center; */
 }
 .partnership-card h1 {
@@ -102,7 +104,8 @@
   }
   .partnership-card-main{
     flex-direction: column;
-    padding-bottom: 4rem;
+    padding-bottom: 11.875vw;
+    gap: 4rem;
   }
   .partner-dot-bottom,
   .partner-dot-top{
@@ -136,9 +139,6 @@
     border-radius: 2vw;
   }
   .brochure-btn{
-    margin-bottom: 1rem;
-  }
-  .cta-btn{
     margin-bottom: 1.5rem;
   }
 }
