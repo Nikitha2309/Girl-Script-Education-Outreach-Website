@@ -28,3 +28,8 @@ function showSlides() {
   
   setTimeout(showSlides, 2000); 
 }
+
+function modalClose(){
+  var modal = document.getElementById("myModal");
+  modal.style.display = "none";
+}
