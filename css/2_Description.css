@@ -24,7 +24,6 @@
   font-size: 3.33vw;
   font-weight: 500;
   margin: 0;
-  /* margin-bottom: 0.85vw; */
 }
 .underline {
   border-top: 0.14vw solid #eb5310;
@@ -45,13 +44,12 @@
   font-size: 1.4vw;
   width: 48.33vw;
   line-height: 1.7vw;
-  /* margin: 1rem 0rem; */
 }
 .desc-illust {
   position: absolute;
-  width: 33.4vw;
-  height: 25.76vw;
-  right: 5.83vw;
+  width: 39.4vw;
+  height: 27.76vw;
+  right: 5.5vw;
   top: 10vw;
 }
 .desc-dot-illust {
@@ -73,10 +71,8 @@
     padding: 0;
     margin-left: auto;
     margin-right: auto;
-    /* text-align: center; */
   }
   .underline{
-    /* margin: 0.5rem auto; */
     margin-top: 1rem;
     width: 70%;
     border-top: .5vw solid #eb5310;
