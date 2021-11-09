@@ -9,7 +9,7 @@
 			<div class="header-2" onclick="mentorform()" id="mentor">Mentor</div>
 		</div>
 		<p id="warning"></p>
-		<form>
+		<form method="post" autocomplete="off" name="GSEOP-PARTICIPANT-REGISTRATIONS">
 		<div id="student-form1" class="form">
 			
 			<label>Name<span> *</span></label>
@@ -17,10 +17,10 @@
 			<label>Email<span> *</span></label>
 			<input type="email" class="valid-input1" name="email" required>
 			<label>Contact Number<span> *</span></label>
-			<input type="number" class="valid-input1"name="number" required>
+			<input type="number" class="valid-input1"name="mobile" required>
 			<div class="occupation">
 			<label for="occupation">Occupation<span> *</span></label>
-			<select id="occupation" required>
+			<select id="occupation" required name="occupation">
 				<option disable selected value>Select an option</option>
 				<option>Student</option>
 				<option>Professional</option>
@@ -29,13 +29,13 @@
 		</div>
 		<div>
 			<label for="selected-course">Select a Course<span> *</span></label>
-			<select id="selected-course" required>
+			<select id="selected-course" name="course selected" required>
 				<option disable selected value>Select an option</option>
 				<option>Getting Started with Java</option>
 			</select>
 		</div>
 			<label>College/University/Organisation<span> *</span></label>
-			<input type="text" class="valid-input1"  name="org" required>
+			<input type="text" class="valid-input1"  name="organization" required>
 			<div class="btn-cont">
 			<button class="con-btn" id="cont-btn1" onclick="next()" type="button">Continue <img src="./assets/forward_arrow.png" style="vertical-align: middle;width:0.625vw;height:1.18vw;"></button>
 		    </div>
@@ -43,14 +43,14 @@
 		<div id="student-form2" class="form">
 			<div class="back-flex"><img onclick="back()" src="./assets/back_arrow.svg" > <a onclick="back()" style="color:#908E8E;cursor: pointer;margin-left:3px;">Back</a></div><br>
 			<label>Why do you want to get this Scholarship ? <span> *</span></label>
-			<textarea  name="scholarship"  required></textarea><br>
+			<textarea   name="Why do you want to get this Scholarship" required></textarea><br>
 			<label>How will this program help you in future ?<span> *</span></label>
-			<textarea name="how-program-will-help"  required></textarea><br>
-			<div class="agree"><label class="custom-checkbox"><input type="checkbox"  required><span class="checkmark"></span></label> <br><p> Yes, I agree</p></div>
+			<textarea  name="How will this program help you in future" required></textarea><br>
+			<div class="agree"><label class="custom-checkbox"><input type="checkbox" name="agreed" value="1"  required><span class="checkmark"></span></label> <br><p> Yes, I agree</p></div>
 			<small>I agree that I will follow the following guidelines:- 1) I will not create a nuisance in a live class or the community channels. 2) I will not use abusive language or harass anyone in any form. 3) I will attend all the classes to get a digital certificate. 4) GirlScript can take legal action against me if I break any of the rules. *
 			</small>
 			<div class="btn-cont">
-			<button class="con-btn" id="cont-btn2">Submit</button>
+			<button class="con-btn" type="submit" name="submit" id="cont-btn2">Submit</button>
 		    </div>
 		</div>
 		</form>
@@ -126,5 +126,18 @@ btn.addEventListener('change', function(){
   fileChosen.textContent = this.files[0].name;
 });
 
+const scriptURL = ''
+        const form = document.forms['GSEOP-PARTICIPANT-REGISTRATIONS']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => Swal.fire({
+			icon: 'success',
+			title: 'Your Regsitration was successful'}),form.reset())
+            .catch(error => Swal.fire({
+			icon: 'error',
+			title: error.message}))
+        })
 
 </script>
