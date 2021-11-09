@@ -1,6 +1,6 @@
 .register {
 	color:black;
-	height: 56vw;
+	height: 60vw;
 	background: #FFDAB8;
 	z-index: 100;
 	position: relative;
@@ -20,7 +20,7 @@
 }
 .register-cont .container{
 	width: 29.86%;
-	min-height: 44.72vw;
+	min-height: 47.72vw;
 	border: 3px solid #EB5310;
 	border-radius: 15px;
 	padding: 30px;
@@ -98,8 +98,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .register .form{ /*change this*/
 	position: absolute;
-	left:15px;
-	right:15px;
+	left:1.041vw;
+	right:1.041vw;
 	transition: 0.6s;
 }
 .occupation label{
@@ -328,7 +328,7 @@ input[type=number]::-webkit-outer-spin-button {
   #warning{
 	  font-weight: 400;
 	  color:red;
-	  margin-left: -1.07vw;
+	  text-align: center;
 	  font-size: 1.11vw;
   }
   .slider{
