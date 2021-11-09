@@ -26,6 +26,13 @@
 				<option>Entrepreneur</option>
 			</select>
 		</div>
+		<div>
+			<label for="selected-course">Select a Course<span> *</span></label>
+			<select id="selected-course" required>
+				<option disable selected value>Select an option</option>
+				<option>Getting Started with Java</option>
+			</select>
+		</div>
 			<label>College/University/Organisation<span> *</span></label>
 			<input type="text" class="valid-input1"  name="org" required>
 			<div class="btn-cont">
@@ -78,9 +85,9 @@
 			<label for="availability">Select Course<span> *</span></label>
 			<select id="availability" class="valid-input3" required>
 				<option disable selected value>Select an option</option>
+				<!-- <option>Getting Started with Java</option>
 				<option>#</option>
-				<option>#</option>
-				<option>#</option>
+				<option>#</option> -->
 			</select>
 			<label>Why should we select you as a mentor<span> *</span></label>
 			<textarea class="valid-input3" name="why-mentor" required></textarea>
