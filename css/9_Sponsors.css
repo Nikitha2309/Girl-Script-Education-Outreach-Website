@@ -3,6 +3,9 @@
   color: #fff;
   height: 22vw;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .sponsor_heading {
   font-weight: 500;
@@ -26,10 +29,8 @@
   z-index: 0;
 }
 .sponsor_logo {
-  width: 38%;
-  /* left: 31%; */
-  margin: 2rem 32%;
-  /* position: absolute; */
+  width: 38vw;
+  margin-top: 4vw;
 }
 @media screen and (max-width: 1024px) {
   .Sponsors {
