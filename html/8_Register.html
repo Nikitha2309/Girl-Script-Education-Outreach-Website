@@ -9,7 +9,8 @@
 			<div class="header-2" onclick="mentorform()" id="mentor">Mentor</div>
 		</div>
 		<p id="warning"></p>
-		<form id="student-form1">
+		<form>
+		<div id="student-form1" class="form">
 			
 			<label>Name<span> *</span></label>
 			<input type="text" class="valid-input1" name="name" required>
@@ -38,8 +39,8 @@
 			<div class="btn-cont">
 			<button class="con-btn" id="cont-btn1" onclick="next()" type="button">Continue <img src="./assets/forward_arrow.png" style="vertical-align: middle;width:0.625vw;height:1.18vw;"></button>
 		    </div>
-		</form>
-		<form id="student-form2">
+		</div>
+		<div id="student-form2" class="form">
 			<div class="back-flex"><img onclick="back()" src="./assets/back_arrow.svg" > <a onclick="back()" style="color:#908E8E;cursor: pointer;margin-left:3px;">Back</a></div><br>
 			<label>Why do you want to get this Scholarship ? <span> *</span></label>
 			<textarea  name="scholarship"  required></textarea><br>
@@ -51,9 +52,11 @@
 			<div class="btn-cont">
 			<button class="con-btn" id="cont-btn2">Submit</button>
 		    </div>
+		</div>
 		</form>
 		<!-- Mentor forms -->
-		<form id="mentor-form1">
+		<form>
+		<div id="mentor-form1" class="form">
 			<label>Name<span> *</span></label>
 			<input type="text" class="valid-input2" name="name" required>
 			<label>Email<span> *</span></label>
@@ -72,8 +75,8 @@
 			<div class="btn-cont">
 			<button class="con-btn" id="cont-btn1" onclick="mentornext()" type="button">Continue  <img src="./assets/forward_arrow.png" style="vertical-align: middle;width:0.625vw;height:1.18vw;"></button>
 		    </div>
-		</form>
-		<form id="mentor-form2">
+		</div>
+		<div id="mentor-form2" class="form">
 			<div class="back-flex"><img onclick="mentorback()" src="./assets/back_arrow.svg" > <a onclick="mentorback()" style="color:#908E8E;cursor: pointer;margin-left:3px;">Back</a></div><br>
 			<label>LinkedIn Link<span> *</span></label>
 			<input type="url" class="valid-input3" name="LinkedIn" required>
@@ -94,8 +97,8 @@
 			<div class="btn-cont">
 			<button class="con-btn" id="cont-btn2" onclick="mentorsecondnext()" type="button">Continue <img src="./assets/forward_arrow.png" style="vertical-align: middle;width:0.625vw;height:1.18vw;"></button>
 		    </div>
-		</form>
-		<form id="mentor-form3">
+		</div>
+		<div id="mentor-form3" class="form">
 			<div class="back-flex"><img onclick="mentorsecondback()" src="./assets/back_arrow.svg" > <a onclick="mentorsecondback()" style="color:#908E8E;cursor: pointer;margin-left:3px;">Back</a></div><br>
 			<label>Please share some work experience related to your choosen field<span> *</span></label>
 			<textarea  name="work-experience" required></textarea>
@@ -106,6 +109,7 @@
 			<div class="btn-cont">
 			<button class="con-btn" id="cont-btn2">Submit</button>
 		    </div>
+		</div>
 		</form>
 	</div>
 	

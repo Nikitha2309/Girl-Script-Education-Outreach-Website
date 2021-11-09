@@ -96,7 +96,7 @@ input[type=number]::-webkit-outer-spin-button {
 	
 	
 }
-.register form{ /*change this*/
+.register .form{ /*change this*/
 	position: absolute;
 	left:15px;
 	right:15px;
