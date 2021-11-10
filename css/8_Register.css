@@ -446,10 +446,13 @@ input[type=number]::-webkit-outer-spin-button {
 		height:2.18vw !important;
 	}
 	.resume img{
-		width:1.9vw;
+		width:1.9vw !important;
 	}
 	#warning{
 		font-size: 2.11vw;
+	}
+	#mentor-form1 .btn-cont, #mentor-form3 .btn-cont{
+		margin-top:20px;
 	}
 	#mentor-form2 input[type=radio] {
 		width: 3.38vw;
