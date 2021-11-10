@@ -354,3 +354,28 @@ input[type=number]::-webkit-outer-spin-button {
 	}
 	
 }
+
+@media screen and (max-width:1024px){
+	.register-cont .container
+	{
+		width:40%;
+		height:600px;
+	}
+	.register{
+		height:792px;
+	}
+	.header-1,.header-2{
+		height:49px;
+	}
+	.register-cont input, .register-cont select{
+		height:31.96px;
+		font-size:16px;
+	}
+	.register-cont select{
+		width:192px;
+		
+	}
+	.register-cont label{
+		font-size: 16px;
+	}
+}
