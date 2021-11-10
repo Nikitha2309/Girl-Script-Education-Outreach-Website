@@ -14,7 +14,7 @@ jQuery(document).ready(function ($) {
   });
   owlCrousel.on("changed.owl.carousel", function (property) {
     var current = property.item.index;
-    console.log(current);
+    
     var prevThumb = $(property.target)
       .find(".owl-item")
       .eq(current)

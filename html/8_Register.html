@@ -162,4 +162,9 @@ const scriptURL = 'https://script.google.com/macros/s/#/exec'
 		 	title: error.message}))
          })
 
+	
+
+		 var x = window.matchMedia("(max-width: 1024px)")
+		 mediaFunction(x) // Call listener function at run time
+        x.addListener(mediaFunction) // Attach listener function on state changes
 </script>
