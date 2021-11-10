@@ -62,14 +62,14 @@
 @media screen and (max-width:1024px) {
 .stats-rect{
 	flex-direction: column;
-	width:655px;
-	height:250px;
+	width: 54.48vw;
+    height: 30.36vw;
 	justify-content: center;
 	align-items: center;
 	font-size: 30px;
 }
 .stats{
-	height:500px;
+	height:40vw;
 }
 .stats-sub-2{
 	margin-left: -80px;
