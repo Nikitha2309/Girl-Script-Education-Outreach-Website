@@ -55,21 +55,23 @@
 		</div>
 		</form>
 		<!-- Mentor forms -->
-		<form>
+		<form method="post" autocomplete="off" enctype="multipart/form-data" name="GSEOP-MENTOR-REGISTRATIONS">
 		<div id="mentor-form1" class="form">
 			<label>Name<span> *</span></label>
-			<input type="text" class="valid-input2" name="name" required>
+			<input type="text" class="valid-input2" name="mentor name" required>
 			<label>Email<span> *</span></label>
-			<input type="email"  class="valid-input2" name="email" required>
+			<input type="email"  class="valid-input2" name="mentor email" required>
 			<label>Contact Number<span> *</span></label>
-			<input type="number"  class="valid-input2" name="number" required>
+			<input type="number"  class="valid-input2" name="mentor mobile" required>
 			<div class="occupation">
 			<label class="actual-label">Upload your resume<span> *</span></label>
 		    <label class="resume" for="file-upload">Upload <img src="./assets/up_arrow.svg"style="width:0.900vw;"></label>
-			<input type="file" class="valid-input2" id="file-upload" hidden required>
+			<input type="file" name="resume"  class="valid-input2" id="file-upload" hidden required>
+			
 		    </div>
 			<div class="file-content">
-			<small id="file-name"></small></div><br>
+			
+			<small id="file-name"  ></small></div><br>
 			<label>Github Link<span> *</span></label>
 			<input type="url" class="valid-input2" name="github" required>
 			<div class="btn-cont">
@@ -79,21 +81,21 @@
 		<div id="mentor-form2" class="form">
 			<div class="back-flex"><img onclick="mentorback()" src="./assets/back_arrow.svg" > <a onclick="mentorback()" style="color:#908E8E;cursor: pointer;margin-left:3px;">Back</a></div><br>
 			<label>LinkedIn Link<span> *</span></label>
-			<input type="url" class="valid-input3" name="LinkedIn" required>
+			<input type="url" class="valid-input3" name="linkedin" required>
 			<label>Domain of Mentorship<span> *</span></label><br>
 			<div class="radio-buttons">
 			<input type="radio" name="domain" value=0 id="radio-button1"required><span> Tech</span>
 			<input type="radio" name="domain" value=1 id="radio-button2" required><span>Non Tech</span>
 		    </div>
 			<label for="availability">Select Course<span> *</span></label>
-			<select id="availability" class="valid-input3" required>
+			<select id="availability" name="course" class="valid-input3" required>
 				<option disable selected value>Select an option</option>
 				<!-- <option>Getting Started with Java</option>
-				<option>#</option>
-				<option>#</option> -->
+				<option>#</option>-->
+				<option>#</option> 
 			</select>
 			<label>Why should we select you as a mentor<span> *</span></label>
-			<textarea class="valid-input3" name="why-mentor" required></textarea>
+			<textarea class="valid-input3" name="Why should we select you as a mentor" required></textarea>
 			<div class="btn-cont">
 			<button class="con-btn" id="cont-btn2" onclick="mentorsecondnext()" type="button">Continue <img src="./assets/forward_arrow.png" style="vertical-align: middle;width:0.625vw;height:1.18vw;"></button>
 		    </div>
@@ -101,11 +103,11 @@
 		<div id="mentor-form3" class="form">
 			<div class="back-flex"><img onclick="mentorsecondback()" src="./assets/back_arrow.svg" > <a onclick="mentorsecondback()" style="color:#908E8E;cursor: pointer;margin-left:3px;">Back</a></div><br>
 			<label>Please share some work experience related to your choosen field<span> *</span></label>
-			<textarea  name="work-experience" required></textarea>
+			<textarea  name="work experience" required></textarea>
 			<label>Describe what you would do if students became inactive during the event<span> *</span></label>
-			<textarea  name="behavioural-question" required></textarea>
+			<textarea  name="what you would do if students became inactive" required></textarea>
 			<label>How many hours are you willing to <t></t>dedicate per week?<span> *</span></label>
-			<input type="text" name="hours" required>
+			<input type="text" name="hours/week" required>
 			<div class="btn-cont">
 			<button class="con-btn" id="cont-btn2">Submit</button>
 		    </div>
@@ -126,7 +128,7 @@ btn.addEventListener('change', function(){
   fileChosen.textContent = this.files[0].name;
 });
 
-const scriptURL = ''
+const scriptURL = 'https://script.google.com/macros/s/#/exec'
         const form = document.forms['GSEOP-PARTICIPANT-REGISTRATIONS']
 
         form.addEventListener('submit', e => {
@@ -139,5 +141,25 @@ const scriptURL = ''
 			icon: 'error',
 			title: error.message}))
         })
+
+	
+
+		
+		
+		
+		
+		const scriptURL1 = 'https://script.google.com/macros/s/3/exec'
+        const form1 = document.forms['GSEOP-MENTOR-REGISTRATIONS']
+		
+        form1.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL1, { method: 'POST', body: new FormData(form1)})
+        .then(response => Swal.fire({
+			icon: 'success',
+			title: 'Your Regsitration was successful'}),form1.reset())
+             .catch(error => Swal.fire({
+		 	icon: 'error',
+		 	title: error.message}))
+         })
 
 </script>
