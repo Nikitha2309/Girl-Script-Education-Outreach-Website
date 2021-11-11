@@ -9,8 +9,17 @@
 			<div class="header-2" onclick="mentorform()" id="mentor">Mentor</div>
 		</div>
 		<p id="warning"></p>
-		<form method="post" autocomplete="off" name="GSEOP-PARTICIPANT-REGISTRATIONS">
-		<div id="student-form1" class="form">
+		<form method="post" autocomplete="off" class="student" id="student-form" name="GSEOP-PARTICIPANT-REGISTRATIONS">
+			<div class="form-header"><img src="./assets/participant.png" class="participant-img">
+			<h4>Student Route</h4></div>
+			<div class="form-content">
+				<p><span>✓</span>Gain New Skills</p>
+				<p><span>✓</span>Gain Practical exposure</p>
+				<p><span>✓</span>Gain Training from Industry experts</p>
+				<p><span>✓</span>Completion Certificate</p>
+				<button class="con-btn"><a href="#">Register as Student</a></button>
+			</div>
+		<!-- <div id="student-form1" class="form">
 			
 			<label>Name<span> *</span></label>
 			<input type="text" class="valid-input1" name="name" required>
@@ -52,11 +61,20 @@
 			<div class="btn-cont">
 			<button class="con-btn" type="submit" name="submit" id="cont-btn2">Submit</button>
 		    </div>
-		</div>
+		</div> -->
 		</form>
 		<!-- Mentor forms -->
-		<form method="post" autocomplete="off" enctype="multipart/form-data" name="GSEOP-MENTOR-REGISTRATIONS">
-		<div id="mentor-form1" class="form">
+		<form method="post" autocomplete="off" id="mentor-form" class="mentor-form"enctype="multipart/form-data" name="GSEOP-MENTOR-REGISTRATIONS">
+			<div class="form-header"><img src="./assets/mentor.png" class="participant-img">
+				<h4>Mentor Route</h4></div>
+				<div class="form-content">
+					<p><span>✓</span>Gain Practical Exposure</p>
+					<p><span>✓</span>Build Connections</p>
+					<p><span>✓</span>Flexible Schedule of work hours</p>
+					<p><span>✓</span>Certificate</p>
+					<button class="con-btn"><a href="#">Register as Mentor</a></button>
+				</div>
+		<!-- <div id="mentor-form1" class="form">
 			<label>Name<span> *</span></label>
 			<input type="text" class="valid-input2" name="mentor name" required>
 			<label>Email<span> *</span></label>
@@ -90,8 +108,8 @@
 			<label for="availability">Select Course<span> *</span></label>
 			<select id="availability" name="course" class="valid-input3" required>
 				<option disable selected value>Select an option</option>
-				<!-- <option>Getting Started with Java</option>
-				<option>#</option>-->
+				<option>Getting Started with Java</option>
+				<option>#</option>
 				<option>#</option> 
 			</select>
 			<label>Why should we select you as a mentor<span> *</span></label>
@@ -111,7 +129,7 @@
 			<div class="btn-cont">
 			<button class="con-btn" id="cont-btn2">Submit</button>
 		    </div>
-		</div>
+		</div> -->
 		</form>
 	</div>
 	
@@ -128,39 +146,6 @@ btn.addEventListener('change', function(){
   fileChosen.textContent = this.files[0].name;
 });
 
-const scriptURL = 'https://script.google.com/macros/s/#/exec'
-        const form = document.forms['GSEOP-PARTICIPANT-REGISTRATIONS']
-
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => Swal.fire({
-			icon: 'success',
-			title: 'Your Regsitration was successful'}),form.reset())
-            .catch(error => Swal.fire({
-			icon: 'error',
-			title: error.message}))
-        })
-
-	
-
-		
-		
-		
-		
-		const scriptURL1 = 'https://script.google.com/macros/s/#/exec'
-        const form1 = document.forms['GSEOP-MENTOR-REGISTRATIONS']
-		
-        form1.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL1, { method: 'POST', body: new FormData(form1)})
-        .then(response => Swal.fire({
-			icon: 'success',
-			title: 'Your Regsitration was successful'}),form1.reset())
-             .catch(error => Swal.fire({
-		 	icon: 'error',
-		 	title: error.message}))
-         })
 
 	
 

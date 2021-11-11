@@ -96,7 +96,7 @@ input[type=number]::-webkit-outer-spin-button {
 	
 	
 }
-.register .form{ /*change this*/
+.register form{ /*change this*/
 	position: absolute;
 	left:1.041vw;
 	right:1.041vw;
@@ -106,14 +106,15 @@ input[type=number]::-webkit-outer-spin-button {
 	margin-top: 5px;
 }
 .con-btn{
-	width: 46.33%;
-    height: 2.77vw;
+	width: 100%;
+    height: 3.77vw;
 	background-color: #EB5310;
 	color:white;
 	border: none;
-	border-radius: 6px;
+	border-radius: 15px;
 	font-size: 1.38vw;
 	cursor: pointer;
+	margin-top: 2.11vw;
 }
 
 .btn-cont{
@@ -341,7 +342,49 @@ input[type=number]::-webkit-outer-spin-button {
   .slider img:nth-child(1){
 	  margin-right:20px;
   }
-  
+  /*New css*/
+.participant-img{
+	width:100%;
+	height:10vw;
+	margin-top: 1.5vw;
+}
+.form-content span{
+	color:#EB5310;
+	margin-right: 2.2vw;
+	font-size: 1.51vw;
+	font-weight: 800;
+}
+form{
+	width:92%;
+	
+}
+.form-header h4{
+	font-size: 2.11vw;
+	margin-top: 1.5vw;
+}
+form .form-header{
+	text-align: center;
+	margin-bottom: 2.5vw;
+}
+form .form-content{
+	font-weight: 500;
+	font-size: 1.30vw;
+	line-height: 2;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.con-btn a{
+ text-decoration: none;
+ color: #fff;
+}
+#mentor-form{
+left:2000px;
+opacity: 0;
+}
   @media screen and (max-width:1362px){
 	  .pop-up-img{
 		  width:36.5vw;
@@ -438,8 +481,8 @@ input[type=number]::-webkit-outer-spin-button {
 	}
 	.regform-header .header-1,
 		.regform-header .header-2{
-		height: 5.47vw;
-		font-size: 2.11vw;
+			height: 6.47vw;
+			font-size: 3.11vw;
 	}
 	.con-btn img{
 		width:1.625vw !important;
@@ -461,4 +504,23 @@ input[type=number]::-webkit-outer-spin-button {
 	#mentor-form2 .radio-buttons span{
 		font-size: 2.11vw;
 	}
+	form .form-content{
+		font-size: 3.3vw !important;
+	}
+	.participant-img{
+		width: 27.4vw;
+		height: 25vw;
+	}
+	.form-header h4{
+		font-size: 4.11vw;
+	}
+	.form-content span{
+		font-size: 4.51vw;
+	}
+	.con-btn{
+		height: 6.77vw;
+        font-size: 3.38vw;
+	}
 }
+
+
