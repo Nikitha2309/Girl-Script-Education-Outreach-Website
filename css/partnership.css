@@ -9,6 +9,10 @@
   margin-top: 5.55vw;
   position: relative;
 }
+.Partnership .cta-btn a{
+  color:white;
+  text-decoration: none;
+}
 .partner-dot-top,
 .partner-dot-bottom {
   width: 19.71vw;
