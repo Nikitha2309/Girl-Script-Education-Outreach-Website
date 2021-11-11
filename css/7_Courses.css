@@ -168,7 +168,7 @@
 	border-radius: 1.04vw;
 }
 
-/* .Courses_Stats_1_img{
+.Courses_Stats_1_img{
 	position: absolute;
 	width:4.166vw;
 	height:3.61vw;
@@ -296,7 +296,7 @@ line-height: 2.01vw;
 letter-spacing: 0.02em;
 
 color: #000000;
-} */
+}
 .Courses_Stats_1{
   display: flex;
   flex-direction: column;
