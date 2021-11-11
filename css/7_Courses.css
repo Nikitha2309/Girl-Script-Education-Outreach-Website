@@ -200,8 +200,8 @@
 
 .Courses_Stats_1_num{
 	position: absolute;
-/* width: 200px; */
-/* height: 45px; */
+width: 200px; 
+height: 45px; 
 left: 8.68vw;
 top: 7.36vw;
 
@@ -216,8 +216,8 @@ color: #000000;
 
 .Courses_Stats_2_num{
 	position: absolute;
-/* width: 200px; */
-/* height: 45px; */
+width: 200px; 
+ height: 45px; 
 left: 35.69vw;
 top: 7.36vw;
 
@@ -232,8 +232,8 @@ color: #000000;
 
 .Courses_Stats_3_num{
 	position: absolute;
-/* width: 200px; */
-/* height: 45px; */
+ width: 200px; 
+height: 45px; 
 left: 38vw;
 top: 7.36vw;
 
@@ -248,8 +248,8 @@ color: #000000;
 
 .Courses_Stats_1_desc{
 	position: absolute;
-/* width: 230px;
-height: 22px; */
+width: 230px;
+height: 22px; 
 left: 7.6vw;
 top: 11.18vw;
 
@@ -266,8 +266,8 @@ color: #000000;
 
 .Courses_Stats_2_desc{
 	position: absolute;
-/* width: 230px;
-height: 22px; */
+width: 230px;
+height: 22px; 
 left: 40.31vw;
 top: 11.18vw;
 
@@ -283,8 +283,8 @@ color: #000000;
 
 .Courses_Stats_3_desc{
 	position: absolute;
-/* width: 230px;
-height: 22px; */
+width: 230px;
+height: 22px; 
 left: 39.5vw;
 top: 11.18vw;
 
@@ -296,4 +296,100 @@ line-height: 2.01vw;
 letter-spacing: 0.02em;
 
 color: #000000;
+}
+.Courses_Stats_1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.11vw;
+}
+.Courses_Stats_3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.11vw;
+}
+.Courses_Stats_Container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.Courses_Stats_1_img{
+  width:4.58vw;
+	height:4.16vw;
+  background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/7_Courses_Stats_1.png') no-repeat;
+	background-size: contain;
+}
+.Courses_Stats_3_img{
+  width:4.58vw;
+	height:4.16vw;
+  background:url('https://raw.githubusercontent.com/Nikitha2309/Girl-Script-Education-Outreach-Website/master/assets/7_Courses_Stats_3.png') no-repeat;
+	background-size: contain;
+}
+@media screen and (max-width:1024px){
+  .Courses_container{
+    width:80%;
+    padding:2.083vw;
+  }
+  .Courses_course_image, .Courses_course_content{
+    position: static;
+    width: 100%;
+  }
+  .Courses_course_image{
+    text-align: center;
+  }
+  .Courses_course_description{
+    font-size: 4.11vw;
+    line-height: 4.51vw;
+  }
+  .Courses_course{
+    height: 135vw;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    width:100%;
+    padding: 2.08vw;
+  }
+  
+  .Courses_course_content{
+    overflow-y:visible;
+    
+  }
+  .Courses_course_title{
+    font-size: 4.16vw;
+    margin-top: 2.03vw;
+    margin-bottom: 2.08vw;
+    width:auto;
+  }
+  .Courses_title{
+    font-size: 8.3vw;
+  }
+  .Courses_title_underline{
+    width:34.8%;
+    top:11.79vw;
+    height:1.11vw;
+    background-color: #eb5310;
+  }
+  .Courses_course_date{
+    font-size: 3.11vw;
+  }
+  .Courses_course_image{
+    height:71vw;
+    margin-bottom: 3.189vw;
+  }
+  .Courses_Stats_1,.Courses_Stats_3{
+    font-size: 4.11vw;
+  }
+  .Courses_Stats_Container{
+    position: static;
+    height: 60vw;
+    flex-direction: column;
+  }
+  .Courses_Stats_1_img,.Courses_Stats_3_img{
+    width:6.58vw;
+	  height:6.16vw;
+  }
+  
 }
