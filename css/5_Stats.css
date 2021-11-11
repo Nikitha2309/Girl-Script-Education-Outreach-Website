@@ -59,3 +59,22 @@
     height: 15.5vw;
 	
 }
+@media screen and (max-width:1024px) {
+.stats-rect{
+	flex-direction: column;
+	width: 54.48vw;
+    height: 30.36vw;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+.stats{
+	height:40vw;
+}
+.stats-sub-2{
+	margin-left: -80px;
+}
+.stats-rect img{
+	width:60px;
+}
+}

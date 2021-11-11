@@ -68,3 +68,45 @@
 	left: 6.125%;
 	font-weight: 400;
 }
+
+@media screen and (max-width:1024px){
+	.contact-parent{
+	flex-direction: column;
+
+	}
+	.footer{
+		height: 100%;
+	}
+	.contact-1{
+		width:82%;
+	}
+	.contact-1 p{
+		font-size: 4.11vw;
+	}
+	.footer h3{
+		font-size: 5.66vw;
+	}
+	.contact-1 ul li,.contact-2 ul li,.contact-3 ul li,.contact-4 ul li{
+		font-size: 4.38vw;
+	}
+	.contact-5 ul{
+		display: flex;
+		justify-content: space-between;
+	}
+	.contact-5 ul li img{
+		width:100.15px;
+	}
+	.contact-4 a{
+		width:30%;
+		padding:1.83vw 3.47%;
+		font-size:2.38vw;
+		text-align: center;
+	}
+	.copyright{
+		position: static;
+		margin-top: 30px;
+		margin-left: 8.486vw;
+		font-size: 3.18vw;
+		padding-bottom:30px;
+	}
+}
