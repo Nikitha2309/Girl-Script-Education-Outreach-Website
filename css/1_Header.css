@@ -151,3 +151,8 @@ background: #EB5310;
     box-sizing: border-box;
     border-radius: 0.48vw;
 }
+@media screen and (max-width:1024px){
+	.Header_nav-links ul li a{
+		display: none;
+	}
+}
