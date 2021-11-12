@@ -53,8 +53,14 @@
   </nav>
 </div>
 <script>
-  document.querySelector(".hamMenu").addEventListener("click", function () {
+	var mq = window.matchMedia( "(max-width: 1024px)" );
+if (mq.matches) {
+     document.querySelector(".hamMenu").addEventListener("click", function () {
     document.querySelector(".hamMenu").classList.toggle("active");
 	document.querySelector('.Header_nav-links').classList.toggle('active_nav')
   });
+}
+else {
+    // window width is greater than 570px
+}
 </script>
