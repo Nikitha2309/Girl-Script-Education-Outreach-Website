@@ -408,7 +408,9 @@ opacity: 1;
 		width:68%;
 		height:100vw;
 	}
-	
+	.ornament1_8{
+		z-index:-1;
+	}
 	.register{
 		height:121vw;
 	}
