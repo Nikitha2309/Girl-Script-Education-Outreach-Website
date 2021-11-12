@@ -153,9 +153,11 @@
   }
   .FAQ_quesn{
 	  width: 90%;
+	  font-size:4vw;
   }
   .FAQ_answer{
 	  margin-top: 2vw;
+	  font-size:3.23vw;
   }
   .FAQ_arrow{
 	  width: 4vw;
