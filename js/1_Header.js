@@ -10,8 +10,8 @@ window.addEventListener("scroll", () => {
     }
   });
   document.querySelectorAll('.Header nav ul li').forEach((li) => {
-	var div_child = li.lastChild;
-	div_child.style.opacity=0;
+	var div_child = li.lastElementChild;
+	div_child.style.opacity=0; 
     if (li.classList.contains(current)) {
       div_child.style.opacity=1;
     }
