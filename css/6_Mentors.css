@@ -26,12 +26,12 @@
   padding: 5vw 10.2vw;
   grid-template-columns: repeat(4, 1fr);
 }
-.mentors-container-2{
+.mentors-container2{
   display: grid;
   grid-gap: 2rem;
   place-items: center;
-  padding: 0vw 16.6vw;
-  grid-template-columns: repeat(3, 1fr);
+  padding: 0vw 30.6vw;
+  grid-template-columns: repeat(2, 1fr);
 }
 .mentor {
   display: grid;
@@ -87,10 +87,14 @@
     width: 30%;
     border-top: .4vw solid #eb5310;
   }
-  .mentors-container {
+  .mentors-container,
+  .mentors-container2 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-gap: 5rem 0rem;
+  }
+  .mentors-container2{
+    padding: 5vw 10.2vw;
   }
   .mentor{
     width: 80%;
