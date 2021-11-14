@@ -128,11 +128,12 @@
     font-size: 8vw;
     width: 80%;
     margin: auto;
+	  text-align:left;
   }
   .About_title_underline {
     width: 15%;
     border-top: 0.4vw solid #eb5310;
-    right: 9vw;
+    right: 74vw;
     top: 4vw;
   }
   .About_sub_title {
@@ -141,6 +142,7 @@
     line-height: normal;
     margin: 7vw auto 3vw;
     height: auto;
+	  text-align: left;
   }
   .About_image_1 {
     width: 100%;
@@ -158,6 +160,7 @@
     line-height: normal;
     width: 80%;
     margin: auto;
+	  text-align: left;
   }
   .About a {
     width: 60%;
@@ -170,6 +173,6 @@
     margin: 3vw auto;
     font-size: 3vw;
     line-height: normal;
-	margin-left: 30vw;
+	margin-left: 10vw;
   }
 }

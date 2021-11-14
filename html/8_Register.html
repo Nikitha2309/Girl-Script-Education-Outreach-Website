@@ -1,15 +1,15 @@
 <div class="register" id="register">
 	<img src="./assets/8_Ornament.png"class="ornament1_8">
-	<h1>Register Now!</h1>
+	<h1>Become a Mentor!</h1>
 	<div class="register-cont">
 	<div class="container">
 		<div class="regbox-full">
 		<div class="regform-header">
-			<div class="header-1" id="student"  onclick="studentform()">Student</div>
-			<div class="header-2" onclick="mentorform()" id="mentor">Mentor</div>
+			
+			<div class="header-2" id="mentor">Mentor</div>
 		</div>
 		<p id="warning"></p>
-		<form method="post" autocomplete="off" class="student" id="student-form" name="GSEOP-PARTICIPANT-REGISTRATIONS">
+		<!-- <form method="post" autocomplete="off" class="student" id="student-form" name="GSEOP-PARTICIPANT-REGISTRATIONS">
 			<div class="form-header"><img src="./assets/participant.png" class="participant-img">
 			<h4>Student Route</h4></div>
 			<div class="form-content">
@@ -18,7 +18,7 @@
 				<p><span>✓</span>Gain Training from Industry experts</p>
 				<p><span>✓</span>Completion Certificate</p>
 				<button class="con-btn"><a target="_blank" href="https://linktr.ee/GirlScriptEducationOutreach">Register as Student</a></button>
-			</div>
+			</div> -->
 		<!-- <div id="student-form1" class="form">
 			
 			<label>Name<span> *</span></label>
@@ -62,7 +62,7 @@
 			<button class="con-btn" type="submit" name="submit" id="cont-btn2">Submit</button>
 		    </div>
 		</div> -->
-		</form>
+		<!-- </form> -->
 		<!-- Mentor forms -->
 		<form method="post" autocomplete="off" id="mentor-form" class="mentor-form"enctype="multipart/form-data" name="GSEOP-MENTOR-REGISTRATIONS">
 			<div class="form-header"><img src="./assets/mentor.png" class="participant-img">
@@ -72,7 +72,7 @@
 					<p><span>✓</span>Build Connections</p>
 					<p><span>✓</span>Flexible Schedule of work hours</p>
 					<p><span>✓</span>Certificate</p>
-					<button class="con-btn"><a href="https://forms.gle/w8LvnTkLTLqzCBD26" target="_blank">Register as Mentor</a></button>
+					<a href="https://forms.gle/w8LvnTkLTLqzCBD26" class="con-btn" target="_blank">Register as Mentor</a>
 				</div>
 		<!-- <div id="mentor-form1" class="form">
 			<label>Name<span> *</span></label>
@@ -137,19 +137,3 @@
 </div>
 <img src="./assets/8_Ornament.png" class="ornament2_8">
 </div>
-<script>
-const btn = document.getElementById('file-upload');
-
-const fileChosen = document.getElementById('file-name');
-
-btn.addEventListener('change', function(){
-  fileChosen.textContent = this.files[0].name;
-});
-
-
-	
-
-		 var x = window.matchMedia("(max-width: 1024px)")
-		 mediaFunction(x) // Call listener function at run time
-        x.addListener(mediaFunction) // Attach listener function on state changes
-</script>
