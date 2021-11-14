@@ -87,10 +87,14 @@
     width: 30%;
     border-top: .4vw solid #eb5310;
   }
-  .mentors-container {
+  .mentors-container,
+  .mentors-container2 {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-gap: 5rem 0rem;
+  }
+  .mentors-container2{
+    padding: 5vw 10.2vw;
   }
   .mentor{
     width: 80%;
