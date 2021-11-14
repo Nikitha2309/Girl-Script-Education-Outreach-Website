@@ -74,6 +74,9 @@
 .stats-sub-2{
 	margin-left: -80px;
 }
+.sub-2-img img{
+	margin-left: -40px;
+}
 .stats-rect img{
 	width:60px;
 }
