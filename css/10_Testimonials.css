@@ -46,16 +46,24 @@
 .owl-item-container {
   background: #fff; 
   min-height: 26.2vw;
+  height: auto;
   border-radius: 15px;
 }
 .owl-carousel .owl-stage-outer {
   height: 100%;
 }
-.owl-carousel .item img {
-  width: 10vw;
+.testimonial-img{
   padding-top: 3vw;
   padding-bottom: 1vw;
+}
+.owl-carousel .item img {
+  width: 10vw;
   margin: auto;
+  width: 10.14vw;
+  height: 10.14vw;
+  object-fit: cover;
+  border-radius: 50%;
+  
 }
 .item-border {
   border: 0.21vw solid #eb5310;
@@ -103,6 +111,7 @@
 }
 .thumb-next img, .thumb-prev img{
   width: 5.56vw;
+  border-radius: 50%;
 }
 .owl-theme .owl-dots .owl-dot span {
   background: #fff;
@@ -170,9 +179,12 @@
     width: 90vw;
     margin-left: 1.5rem;
   }
+  .testimonial-img{
+    padding: 6vw 0vw 2vw;
+  }
   .owl-carousel .item img{
     width: 20vw;
-    padding-top: 5rem;
+    height: 20vw;
   }
   .item-data h5{
     font-size: 6vw;
