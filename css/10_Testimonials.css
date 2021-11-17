@@ -52,9 +52,9 @@
   /* height: auto; */
   border-radius: 15px;
 }
-.owl-carousel .owl-stage-outer {
-  /* height: 100%; */
-}
+/* .owl-carousel .owl-stage-outer {
+  height: 100%;
+} */
 .testimonial-img{
   padding-top: 3vw;
   padding-bottom: 1vw;
@@ -188,10 +188,10 @@
     margin-left: 1.5rem;
   }
   .border-1{
-    height: 103vw !important;
+    height: 104vw !important;
   }
   .border-2{
-    height: 126vw !important;
+    height: 125vw !important;
   }
   .testimonial-img{
     padding: 6vw 0vw 2vw;
