@@ -5,7 +5,7 @@ jQuery(document).ready(function ($) {
     nav: false,
     dots: true,
     margin: 50,
-    autoplay: true,
+    // autoplay: true,
     loop: true,
     // stagePadding: 50,
     mouseDrag: true,
