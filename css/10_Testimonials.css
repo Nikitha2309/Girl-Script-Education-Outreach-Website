@@ -3,7 +3,7 @@
   font-size: 30px;
   background: #ffba7a;
   color: #000;
-  height: 56.5vw;
+  height: auto;
   position: relative;
 }
 .testimonial_heading {
@@ -31,6 +31,9 @@
   justify-content: center;
   height: 80%;
 }
+.crousel-row{
+  margin-top: 8vw;
+}
 .owl-carousel {
   display: block;
   min-height: 30vw;
@@ -46,11 +49,11 @@
 .owl-item-container {
   background: #fff; 
   min-height: 26.2vw;
-  height: auto;
+  /* height: auto; */
   border-radius: 15px;
 }
 .owl-carousel .owl-stage-outer {
-  height: 100%;
+  /* height: 100%; */
 }
 .testimonial-img{
   padding-top: 3vw;
@@ -109,8 +112,11 @@
 	left: auto;
 	right: 10vw;
 }
-.thumb-next img, .thumb-prev img{
+.thumb-next img,
+.thumb-prev img{
   width: 5.56vw;
+  height: 5.56vw;
+  object-fit: cover;
   border-radius: 50%;
 }
 .owl-theme .owl-dots .owl-dot span {
@@ -148,12 +154,13 @@
     display: none;
   }
   .owl-carousel .owl-stage-outer{
-    height: 85vw;
+    min-height: 85vw;
+    height: 128vw;
   }
   .crousel-container{
     height: 60%;
     width: 100vw;
-    margin-top: 5rem;
+    margin-top: 1rem;
   }
   .owl-carousel{
     margin: 0;
@@ -170,7 +177,8 @@
     height: 100%;
   }
   .owl-item-container{
-    height:80vw;
+    height: auto;
+    min-height:80vw;
     /* width: 90vw; */
   }
   .item-border{
@@ -178,6 +186,12 @@
     height: 81vw !important;
     width: 90vw;
     margin-left: 1.5rem;
+  }
+  .border-1{
+    height: 103vw !important;
+  }
+  .border-2{
+    height: 126vw !important;
   }
   .testimonial-img{
     padding: 6vw 0vw 2vw;
